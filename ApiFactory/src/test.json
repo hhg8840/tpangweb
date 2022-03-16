@@ -1,0 +1,16 @@
+{
+  "rCode": "0",
+  "rMessage": "",
+  "data": [
+    {
+      "originalUrl": "https://www.coupang.com/np/search?component=&q=good&channel=user",
+      "shortenUrl": "https://link.coupang.com/a/k0Qlh",
+      "landingUrl": "https://link.coupang.com/re/AFFSRP?lptag=AF8104485&pageKey=good&traceid=V0-183-c890f6fb18804fe8"
+    },
+    {
+      "originalUrl": "https://www.coupang.com/np/coupangglobal",
+      "shortenUrl": "https://link.coupang.com/a/k0Qli",
+      "landingUrl": "https://link.coupang.com/re/AFFJIKGU?lptag=AF8104485&traceid=V0-183-50c6c2b97fba9aee"
+    }
+  ]
+}
