@@ -1,11 +1,10 @@
 import React from 'react';
-import data from '@productsDetail/2022.3.17/2022.3.17_게이밍키보드.json';
+import data from '@productsDetail/2022.3.17/2022.3.17_통돌이세탁기.json';
 import ContentLayout from 'src/component/ContentLayout';
-import Head from 'next/head';
 
 type Props = {};
 
-const keyboard = (props: Props) => {
+const washingMachine = (props: Props) => {
   return (
     <>
       <ContentLayout data={data} />
@@ -13,4 +12,4 @@ const keyboard = (props: Props) => {
   );
 };
 
-export default keyboard;
+export default washingMachine;

@@ -33,9 +33,6 @@ class MyDocument extends Document {
     return (
       <Html lang="ko">
         <Head>
-          <meta property="og:title" content="생활, 가전제품 추천소" />
-          <meta property="og:description" content="2022년 최신 생활 가전제품 순위를 안내해드립니다." />
-          <meta property="og:image" content={notebook[0].productImage} />
           <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
         </Head>
         <body>

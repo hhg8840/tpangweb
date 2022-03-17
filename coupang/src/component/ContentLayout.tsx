@@ -1,17 +1,49 @@
 import { IData } from '@customTypes/allTypes';
 import { kakaoShare } from '@lib/kakaoShare';
+import Head from 'next/head';
 import React, { useEffect } from 'react';
 import shortid from 'shortid';
 import styled from 'styled-components';
 import AppLayout from './AppLayout';
 
 const ContentLayout = ({ data }: { data: IData[] }) => {
-  useEffect(() => {
-    window.Kakao.init(process.env.NEXT_PUBLIC_KAKAO_API_KEY);
-  }, []);
+  const today = new Date();
+  const year = today.getFullYear(); // 년도
+  const month = today.getMonth() + 1; // 월
+  const date = today.getDate(); // 날짜
+  const day = today.getDay(); // 요일
+  const url = 'http://localhost:3000';
   return (
     <AppLayout>
+      <Head>
+        <title key={shortid.generate()}>{`${year}년${month}월 ${data[0].keyword} 추천순위 TOP10`}</title>
+        <meta
+          key={shortid.generate()}
+          name="description"
+          content={`${data[0].keyword} 추천순위 TOP10을 소개해드립니다.`}
+        />
+        <meta
+          name="keyword"
+          content="키보드추천, 노트북추천, 마우스추천, 액션캠추천, 모니터추천, 블루투스마우스 추천, 기계식키보드 추천, 목걸이추천, 남자지갑 추천,여자지갑추천, 통돌이 세탁기추천 "
+        />
+        <meta key={shortid.generate()} property="og:type" content="website" />
+        <meta key={shortid.generate()} property="og:url" content={url} />
+        <meta key={shortid.generate()} property="og:title" content={`${data[0].keyword} 추천순위 TOP10`} />
+        <meta key={shortid.generate()} property="og:image" content={data[0].productImage} />
+        <meta
+          key={shortid.generate()}
+          property="og:description"
+          content={`${data[0].keyword} 추천순위 TOP10을 소개해드립니다.`}
+        />
+        <meta
+          key={shortid.generate()}
+          property="og:site_name"
+          content="전자제품, 생황가전제품 등 필수아이템 추천순위 TOP10"
+        />
+        <meta key={shortid.generate()} property="og:locale" content="ko_KR" />
+      </Head>
       <ContentLayoutWrapper>
+        <Title>{`${year}년${month}월`}</Title>
         <Title>{data[0].keyword} 인기순위 TOP10</Title>
         <ContainerWrapper>
           {data.map((item) => (
@@ -103,7 +135,7 @@ const Rank = styled.div`
 `;
 
 const Title = styled.div`
-  padding: 80px 50px;
+  padding: 30px 50px 0px 50px;
   font-size: 3rem;
   font-weight: 1000;
   color: white;
@@ -129,14 +161,14 @@ const RankWrapper = styled.div`
 
 const LinkBox = styled.div`
   margin-top: 30px;
-  padding: 1.875rem 1.875rem;
+  padding: 1.25rem 1.575rem;
   background-color: #f9c51d;
   width: 40%;
   border-radius: 10px;
   margin-bottom: 30px;
   color: white;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   transition: all 0.2s linear;
   cursor: pointer;

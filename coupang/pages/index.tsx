@@ -16,6 +16,7 @@ import necklace from '@productsDetail/2022.3.17/2022.3.17_목걸이.json';
 import actionCam from '@productsDetail/2022.3.17/2022.3.17_액션캠.json';
 import monitor from '@productsDetail/2022.3.17/2022.3.17_모니터.json';
 import Link from 'next/link';
+import shortid from 'shortid';
 
 const Home: NextPage = () => {
   const initialDataSet = [keyboard, manWallet, notebook, blutoothMouth, blutoothSpeaker, necklace, actionCam, monitor];
@@ -40,7 +41,6 @@ const Home: NextPage = () => {
       <Head>
         <title>Simcoding</title>
         <meta name="description" content="2022 가전제품, 생활용품 인기 추천 순위를 알려드립니다." />
-
         <meta name="keyword" content="키보드추천, 노트북추천, 마우스추천, " />
         <link rel="icon" href="/favicon.ico" />
         <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
       <AppLayout>
         <StyledRow gutter={[30, 30]}>
           {dataSet.map((data) => (
-            <StyledCol xs={24} lg={12}>
+            <StyledCol key={shortid.generate()} xs={24} lg={12}>
               <Link href={`post/${data[0].nextLink}`}>
                 <Container>
                   <StyledImg src={data[0].productImage} alt="" />

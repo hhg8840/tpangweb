@@ -3,14 +3,47 @@ import styled from 'styled-components';
 import { Menu, Dropdown } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
 import Link from 'next/link';
+import shortid from 'shortid';
 
 type Props = {};
 
 const AppLayout = ({ children }: { children: React.ReactNode }) => {
-  const menu = (
+  const menuOne = (
     <Menu>
-      <Menu.Item>
-        <Link href="/post/blutoothSpeaker">블루투스 스피커</Link>
+      <Menu.Item key={shortid.generate()}>
+        <Link href="/post/blutoothSpeaker">블루투스스피커</Link>
+      </Menu.Item>
+      <Menu.Item key={shortid.generate()}>
+        <Link href="/post/blutoothMouse">블루투스마우스</Link>
+      </Menu.Item>
+      <Menu.Item key={shortid.generate()}>
+        <Link href="/post/keyboard">기계식키보드</Link>
+      </Menu.Item>
+      <Menu.Item key={shortid.generate()}>
+        <Link href="/post/notebook">노트북</Link>
+      </Menu.Item>
+      <Menu.Item key={shortid.generate()}>
+        <Link href="/post/actionCam">액션캠</Link>
+      </Menu.Item>
+      <Menu.Item key={shortid.generate()}>
+        <Link href="/post/monitor">모니터</Link>
+      </Menu.Item>
+    </Menu>
+  );
+  const menuTwo = (
+    <Menu>
+      <Menu.Item key={shortid.generate()}>
+        <Link href="/post/washingMachine">통돌이세탁기</Link>
+      </Menu.Item>
+    </Menu>
+  );
+  const menuThree = (
+    <Menu>
+      <Menu.Item key={shortid.generate()}>
+        <Link href="/post/necklace">목걸이</Link>
+      </Menu.Item>
+      <Menu.Item key={shortid.generate()}>
+        <Link href="/post/manWallet">남자지갑</Link>
       </Menu.Item>
     </Menu>
   );
@@ -20,21 +53,21 @@ const AppLayout = ({ children }: { children: React.ReactNode }) => {
         <Link href="/">
           <Home>Home</Home>
         </Link>
-        <StyledDropdown overlay={menu}>
+        <StyledDropdown overlay={menuOne}>
           <a className="ant-dropdown-link" onClick={(e) => e.preventDefault()}>
             전자기기
             <DownOutlined />
           </a>
         </StyledDropdown>
-        <StyledDropdown overlay={menu}>
+        <StyledDropdown overlay={menuTwo}>
           <a className="ant-dropdown-link" onClick={(e) => e.preventDefault()}>
             생활가전
             <DownOutlined />
           </a>
         </StyledDropdown>
-        <StyledDropdown overlay={menu}>
+        <StyledDropdown overlay={menuThree}>
           <a className="ant-dropdown-link" onClick={(e) => e.preventDefault()}>
-            악세사리
+            패션/악세사리
             <DownOutlined />
           </a>
         </StyledDropdown>
@@ -58,6 +91,13 @@ const StyledDropdown = styled(Dropdown)`
   color: white;
   + a {
     margin-left: 3rem;
+  }
+  .ant-dropdown-menu-title-content {
+    display: flex !important;
+    flex-direction: column !important;
+    a {
+      padding: 10px 0;
+    }
   }
 `;
 
