@@ -79,6 +79,9 @@ const Header = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  svg {
+    margin-left: 5px;
+  }
 `;
 
 const Footer = styled.div`
