@@ -1,6 +1,7 @@
 import React from 'react';
 import Document, { DocumentContext, Head, Html, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
+import notebook from '@productsDetail/2022.3.17/2022.3.17_노트북.json';
 
 class MyDocument extends Document {
   static async getInitialProps(context: DocumentContext) {
@@ -31,7 +32,12 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="ko">
-        <Head></Head>
+        <Head>
+          <meta property="og:title" content="생활, 가전제품 추천소" />
+          <meta property="og:description" content="2022년 최신 생활 가전제품 순위를 안내해드립니다." />
+          <meta property="og:image" content={notebook[0].productImage} />
+          <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+        </Head>
         <body>
           <Main />
           <NextScript />
