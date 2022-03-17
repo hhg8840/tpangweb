@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import AppLayout from './AppLayout';
 
 interface IData {
   productId: number;
@@ -19,38 +20,39 @@ interface test {
 const ContentLayout = ({ data }: { data: IData[] }) => {
   return (
     <AppLayout>
-      <Title>{data[0].keyword} 인기순위 TOP10</Title>
-      <AppWrapper>
-        {data.map((item) => (
-          <Container onClick={() => window.open(item.productUrl)}>
-            <RankWrapper>
-              <Rank>{item.rank}</Rank>
-            </RankWrapper>
-            <ProductTitle>{item.productName}</ProductTitle>
-            <ImageWrapper>
-              <ProductImg src={item.productImage} />
-            </ImageWrapper>
-            <Price>가격 : ₩{item.productPrice.toLocaleString()}</Price>
-            <LinkBox>상세정보 및 후기</LinkBox>
-          </Container>
-        ))}
-      </AppWrapper>
+      <ContentLayoutWrapper>
+        <Title>{data[0].keyword} 인기순위 TOP10</Title>
+        <ContainerWrapper>
+          {data.map((item) => (
+            <Container onClick={() => window.open(item.productUrl)}>
+              <RankWrapper>
+                <Rank>{item.rank}</Rank>
+              </RankWrapper>
+              <ProductTitle>{item.productName}</ProductTitle>
+              <ImageWrapper>
+                <ProductImg src={item.productImage} />
+              </ImageWrapper>
+              <Price>가격 : ₩{item.productPrice.toLocaleString()}</Price>
+              <LinkBox>상세정보 및 후기</LinkBox>
+            </Container>
+          ))}
+        </ContainerWrapper>
+      </ContentLayoutWrapper>
     </AppLayout>
   );
 };
 
 export default ContentLayout;
 
-const AppLayout = styled.div`
+const ContentLayoutWrapper = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #3e7e9c;
   justify-content: center;
   width: 100vw;
 `;
 
-const AppWrapper = styled.div`
+const ContainerWrapper = styled.div`
   max-width: 1200px;
   width: 80%;
   display: flex;
@@ -60,7 +62,7 @@ const AppWrapper = styled.div`
 `;
 
 const Container = styled.div`
-  min-width: 400px;
+  min-width: 350px;
   border-radius: 15px;
   width: 40%;
   background-color: white;
@@ -120,8 +122,8 @@ const LinkBox = styled.div`
 
 const RankWrapper = styled.div`
   position: absolute;
-  width: 8rem;
-  height: 8rem;
+  width: 7rem;
+  height: 7rem;
   text-align: center;
   background-color: #f9c51d;
   color: white;
@@ -129,7 +131,7 @@ const RankWrapper = styled.div`
   align-items: center;
   justify-content: center;
   display: flex;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 700;
   left: -3rem;
   top: -3rem;
