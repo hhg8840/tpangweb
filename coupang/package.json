@@ -4,21 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
     "@reduxjs/toolkit": "^1.8.0",
-    "@types/react-slick": "^0.23.8",
     "antd": "^4.18.9",
-    "antd-img-crop": "^4.1.0",
     "axios": "^0.19.2",
-    "crypto": "^1.0.1",
-    "formik": "^2.2.9",
-    "loger": "^0.2.3",
-    "moment": "^2.29.1",
     "next": "12.1.0",
     "next-redux-wrapper": "^7.0.5",
     "react": "17.0.2",
@@ -26,7 +20,6 @@
     "react-redux": "^7.2.6",
     "react-slick": "^0.28.1",
     "shortid": "^2.2.16",
-    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
@@ -36,7 +29,7 @@
     "@types/react": "17.0.39",
     "@types/shortid": "^0.0.29",
     "@types/styled-components": "^5.1.24",
-    "eslint": "8.10.0",
+    "eslint": "^8.11.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-next": "12.1.0",
     "eslint-config-prettier": "^8.5.0",
@@ -45,7 +38,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.3",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "faker": "^5.5.3",
     "prettier": "^2.5.1",
     "typescript": "4.6.2"
   }
