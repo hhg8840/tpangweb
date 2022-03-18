@@ -2,9 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
-  env: {
-    BASE_URL: process.env.BASE_URL,
-  },
+  assetPrefix: '/pages',
 };
 
 module.exports = nextConfig;
