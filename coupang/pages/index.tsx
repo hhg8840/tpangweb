@@ -40,7 +40,7 @@ const Home: NextPage = () => {
   return (
     <React.StrictMode>
       <Head>
-        <title>Simcoding</title>
+        <title>EungwangShop - 생활가전제품 추천순위 TOP10</title>
         <meta name="description" content="2022 가전제품, 생활용품 인기 추천 순위를 알려드립니다." />
         <meta name="keyword" content="키보드추천, 노트북추천, 마우스추천, " />
         <link rel="icon" href="/favicon.ico" />
