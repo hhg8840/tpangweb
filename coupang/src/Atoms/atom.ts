@@ -15,3 +15,8 @@ export const filteredItemAtom = atom<string>({
   key: 'filteredItemAtom',
   default: '',
 });
+
+export const indexStateAtom = atom<boolean>({
+  key: 'indexStateAtom',
+  default: false,
+});

@@ -27,11 +27,9 @@ const SearchInput = ({ items }: Props) => {
       {/* <StyledSearch placeholder="input search loading default" loading={false} /> */}
       <Downshift
         onChange={(selection) => {
-          console.log(selection.value);
           setFilteredItems(selection.value);
         }}
         itemToString={(item) => {
-          console.log(item);
           return item ? item.value : '';
         }}
       >
@@ -44,9 +42,6 @@ const SearchInput = ({ items }: Props) => {
                 onSearch={() => {
                   test(inputValue);
                 }}
-
-                // value={searchValue}
-                // onChange={handleSeachValue}
               />
               <StyledUl {...getMenuProps()}>
                 {isOpen
@@ -86,8 +81,10 @@ const StyledSearch = styled(Search)`
 `;
 
 const Wrapper = styled.div`
-  width: 30%;
+  width: 35%;
+  min-width: 160px;
   margin-left: auto;
+  margin-right: 10px;
   position: relative;
 `;
 

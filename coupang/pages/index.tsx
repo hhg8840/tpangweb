@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { useRecoilState } from 'recoil';
+import { useRecoilState, useSetRecoilState } from 'recoil';
 import { searchTextAtom, mainKeywordAtom } from 'src/Atoms/atom';
 import React, { useEffect, useState } from 'react';
 import AppLayout from 'src/component/AppLayout';
@@ -18,6 +18,7 @@ import Link from 'next/link';
 import shortid from 'shortid';
 import { filteredItemAtom } from 'src/Atoms/atom';
 import { IData } from '@customTypes/allTypes';
+import { indexStateAtom } from 'src/Atoms/atom';
 
 const Home: NextPage = () => {
   const ssr = process.env.NODE_ENV === 'development' ? '/' : '/index.html';
@@ -43,19 +44,22 @@ const Home: NextPage = () => {
   });
   const [filteredItems, setFilteredItems] = useRecoilState(filteredItemAtom);
   const [filteredData, setFilteredData] = useState<any[] | IData[]>([]);
+  const setIndexState = useSetRecoilState(indexStateAtom);
   useEffect(() => {
-    console.log(filteredItems);
-    const tempData = dataSet.map((data) => data).filter((el) => filteredItems?.includes(el.keyword));
+    const tempData = dataSet
+      .map((data) => data)
+      .filter((el) => `${el.keyword} 추천 순위 보러가기`.includes(filteredItems));
     setFilteredData(() => {
       return [...tempData];
     });
-    console.log(filteredData);
   }, [filteredItems]);
 
   useEffect(() => {
+    setIndexState(true);
     return () => {
       setFilteredData([]);
       setFilteredItems('');
+      setIndexState(false);
     };
   }, []);
 

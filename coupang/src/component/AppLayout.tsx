@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import { Menu, Dropdown } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
 import Link from 'next/link';
+import { useRecoilValue } from 'recoil';
+import { indexStateAtom } from 'src/Atoms/atom';
 import { menuOne, menuThree, menuTwo } from './Menu';
 import SearchInput from './SearchInput';
 
@@ -13,6 +15,7 @@ interface Props {
 const AppLayout: React.FunctionComponent<Props> = ({ children, keywords }) => {
   const items: { value: string }[] = [];
   keywords?.map((el) => items.push({ value: el }));
+  const indexState = useRecoilValue(indexStateAtom);
 
   return (
     <Layout>
@@ -38,7 +41,21 @@ const AppLayout: React.FunctionComponent<Props> = ({ children, keywords }) => {
             <DownOutlined />
           </a>
         </StyledDropdown>
-        <SearchInput items={items} />
+
+        {indexState ? (
+          <SearchInput items={items} />
+        ) : (
+          <IframeWrapper>
+            <iframe
+              src="https://coupa.ng/cchmez"
+              width="100%"
+              height="36"
+              frameBorder="0"
+              scrolling="no"
+              referrerPolicy="unsafe-url"
+            ></iframe>
+          </IframeWrapper>
+        )}
       </Header>
       {children}
       <Footer>Copyright © 2022 All Rights Reserved by Eungwang</Footer>
@@ -97,4 +114,12 @@ const Footer = styled.div`
   padding: 50px 0;
   font-size: 1rem;
   color: white;
+`;
+
+const IframeWrapper = styled.div`
+  width: 30%;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  min-width: 160px;
 `;

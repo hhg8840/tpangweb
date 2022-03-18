@@ -17,15 +17,6 @@ const ContentLayout = ({ data }: { data: IData[]; test: string }) => {
   const [filteredData, setFilteredData] = useState<null | IData[]>(data);
 
   const url = 'https://gwang.xyz';
-  // useEffect(() => {
-  //   setFilteredData(
-  //     data.filter((el) => {
-  //       return el.productName.includes(searchText);
-  //     }),
-  //   );
-  //   if (!searchText) setFilteredData(data);
-  //   console.log(searchText);
-  // }, [searchText]);
 
   return (
     <AppLayout>
