@@ -10,8 +10,7 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
   const today = new Date();
   const year = today.getFullYear(); // 년도
   const month = today.getMonth() + 1; // 월
-  const date = today.getDate();
-  const day = today.getDay();
+
   const url = 'https://gwang.xyz';
   return (
     <AppLayout>
