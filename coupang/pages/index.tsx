@@ -1,9 +1,8 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import axios from 'axios';
-import { useEffect } from 'react';
-import { generateHmac } from '@lib/hmacGenerator';
-import React from 'react';
+import { useRecoilState } from 'recoil';
+import { searchTextAtom, mainKeywordAtom } from 'src/Atoms/atom';
+import React, { useEffect, useState } from 'react';
 import AppLayout from 'src/component/AppLayout';
 import { Col, Row } from 'antd';
 import styled from 'styled-components';
@@ -17,6 +16,8 @@ import actionCam from '@productsDetail/2022.3.17/2022.3.17_액션캠.json';
 import monitor from '@productsDetail/2022.3.17/2022.3.17_모니터.json';
 import Link from 'next/link';
 import shortid from 'shortid';
+import { filteredItemAtom } from 'src/Atoms/atom';
+import { IData } from '@customTypes/allTypes';
 
 const Home: NextPage = () => {
   const ssr = process.env.NODE_ENV === 'development' ? '/' : '/index.html';
@@ -31,11 +32,32 @@ const Home: NextPage = () => {
     'actionCam',
     'monitor',
   ];
-  const dataSet = initialDataSet.map((data, idx) =>
+  const tempDataSet = initialDataSet.map((data, idx) =>
     data.map((el) => {
       return { ...el, nextLink: temp[idx] };
     }),
   );
+  const dataSet = tempDataSet.map((data) => data[0]);
+  const keywords = dataSet.map((data) => {
+    return `${data.keyword} 추천 순위 보러가기`;
+  });
+  const [filteredItems, setFilteredItems] = useRecoilState(filteredItemAtom);
+  const [filteredData, setFilteredData] = useState<any[] | IData[]>([]);
+  useEffect(() => {
+    console.log(filteredItems);
+    const tempData = dataSet.map((data) => data).filter((el) => filteredItems?.includes(el.keyword));
+    setFilteredData(() => {
+      return [...tempData];
+    });
+    console.log(filteredData);
+  }, [filteredItems]);
+
+  useEffect(() => {
+    return () => {
+      setFilteredData([]);
+      setFilteredItems('');
+    };
+  }, []);
 
   return (
     <React.StrictMode>
@@ -44,16 +66,15 @@ const Home: NextPage = () => {
         <meta name="description" content="2022 가전제품, 생활용품 인기 추천 순위를 알려드립니다." />
         <meta name="keyword" content="키보드추천, 노트북추천, 마우스추천, " />
         <link rel="icon" href="/favicon.ico" />
-        <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
       </Head>
-      <AppLayout>
+      <AppLayout keywords={keywords}>
         <StyledRow gutter={[30, 30]}>
-          {dataSet.map((data) => (
+          {(filteredData.length ? filteredData : dataSet).map((data) => (
             <StyledCol key={shortid.generate()} xs={24} lg={12}>
-              <Link href={`post/${data[0].nextLink}${ssr}`}>
+              <Link href={`post/${data.nextLink}${ssr}`}>
                 <Container>
-                  <StyledImg src={data[0].productImage} alt="" />
-                  <Content>{`${data[0].keyword} 추천 순위 보러가기`} </Content>
+                  <StyledImg src={data.productImage} alt="" />
+                  <Content>{`${data.keyword} 추천 순위 보러가기`} </Content>
                 </Container>
               </Link>
             </StyledCol>

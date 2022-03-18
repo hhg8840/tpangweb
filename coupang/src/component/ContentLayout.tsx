@@ -1,17 +1,32 @@
 import { IData } from '@customTypes/allTypes';
 import { kakaoShare } from '@lib/kakaoShare';
 import Head from 'next/head';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import shortid from 'shortid';
 import styled from 'styled-components';
 import AppLayout from './AppLayout';
+import { useRecoilState } from 'recoil';
+import { searchTextAtom } from 'src/Atoms/atom';
 
-const ContentLayout = ({ data }: { data: IData[] }) => {
+const ContentLayout = ({ data }: { data: IData[]; test: string }) => {
+  const ssr = process.env.NODE_ENV === 'development' ? '/' : '/index.html';
   const today = new Date();
   const year = today.getFullYear(); // 년도
   const month = today.getMonth() + 1; // 월
+  const [searchText, setSearchText] = useRecoilState(searchTextAtom);
+  const [filteredData, setFilteredData] = useState<null | IData[]>(data);
 
   const url = 'https://gwang.xyz';
+  // useEffect(() => {
+  //   setFilteredData(
+  //     data.filter((el) => {
+  //       return el.productName.includes(searchText);
+  //     }),
+  //   );
+  //   if (!searchText) setFilteredData(data);
+  //   console.log(searchText);
+  // }, [searchText]);
+
   return (
     <AppLayout>
       <Head>
@@ -45,7 +60,7 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
         <Title>{`${year}년${month}월`}</Title>
         <Title>{data[0].keyword} 인기순위 TOP10</Title>
         <ContainerWrapper>
-          {data.map((item) => (
+          {filteredData?.map((item) => (
             <Container key={shortid.generate()} onClick={() => window.open(item.productUrl)}>
               <RankWrapper>
                 <Rank>{item.rank}</Rank>
@@ -201,3 +216,6 @@ const ShareImg = styled.img`
   }
   z-index: 500;
 `;
+function debounce(arg0: () => void, arg1: number) {
+  throw new Error('Function not implemented.');
+}

@@ -4,6 +4,7 @@ import 'antd/dist/antd.css';
 import { useEffect } from 'react';
 import Head from 'next/head';
 import shortid from 'shortid';
+import { RecoilRoot } from 'recoil';
 declare global {
   interface Window {
     Kakao: any;
@@ -24,7 +25,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta key={shortid.generate()} name="keyword" content="키보드추천, 노트북추천, 마우스추천, " />
       </Head>
-      <Component {...pageProps} key={shortid.generate()} />
+      <RecoilRoot>
+        <Component {...pageProps} key={shortid.generate()} />
+      </RecoilRoot>
     </div>
   );
 }

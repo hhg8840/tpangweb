@@ -8,5 +8,5 @@ export interface IData {
   rank: number;
   isRocket: boolean;
   isFreeShipping: boolean;
-  nextlink?: string;
+  nextLink?: string;
 }

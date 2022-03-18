@@ -1,54 +1,19 @@
-import React from 'react';
 import styled from 'styled-components';
 import { Menu, Dropdown } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
 import Link from 'next/link';
-import shortid from 'shortid';
+import { menuOne, menuThree, menuTwo } from './Menu';
+import SearchInput from './SearchInput';
 
-type Props = {};
+interface Props {
+  children: React.ReactNode;
+  keywords?: string[];
+}
 
-const AppLayout = ({ children }: { children: React.ReactNode }) => {
-  const ssr = process.env.NODE_ENV === 'development' ? '/' : '/index.html';
+const AppLayout: React.FunctionComponent<Props> = ({ children, keywords }) => {
+  const items: { value: string }[] = [];
+  keywords?.map((el) => items.push({ value: el }));
 
-  const menuOne = (
-    <Menu>
-      <Menu.Item key={shortid.generate()}>
-        <Link href={`/post/blutoothSpeaker${ssr}`}>블루투스스피커</Link>
-      </Menu.Item>
-      <Menu.Item key={shortid.generate()}>
-        <Link href={`/post/blutoothMouse${ssr}`}>블루투스마우스</Link>
-      </Menu.Item>
-      <Menu.Item key={shortid.generate()}>
-        <Link href={`/post/keyboard${ssr}`}>기계식키보드</Link>
-      </Menu.Item>
-      <Menu.Item key={shortid.generate()}>
-        <Link href={`/post/notebook${ssr}`}>노트북</Link>
-      </Menu.Item>
-      <Menu.Item key={shortid.generate()}>
-        <Link href={`/post/actionCam${ssr}`}>액션캠</Link>
-      </Menu.Item>
-      <Menu.Item key={shortid.generate()}>
-        <Link href={`/post/monitor${ssr}`}>모니터</Link>
-      </Menu.Item>
-    </Menu>
-  );
-  const menuTwo = (
-    <Menu>
-      <Menu.Item key={shortid.generate()}>
-        <Link href={`/post/washingMachine${ssr}`}>통돌이세탁기</Link>
-      </Menu.Item>
-    </Menu>
-  );
-  const menuThree = (
-    <Menu>
-      <Menu.Item key={shortid.generate()}>
-        <Link href={`/post/necklace${ssr}`}>목걸이</Link>
-      </Menu.Item>
-      <Menu.Item key={shortid.generate()}>
-        <Link href={`/post/manWallet${ssr}`}>남자지갑</Link>
-      </Menu.Item>
-    </Menu>
-  );
   return (
     <Layout>
       <Header>
@@ -73,6 +38,7 @@ const AppLayout = ({ children }: { children: React.ReactNode }) => {
             <DownOutlined />
           </a>
         </StyledDropdown>
+        <SearchInput items={items} />
       </Header>
       {children}
       <Footer>Copyright © 2022 All Rights Reserved by Eungwang</Footer>
@@ -115,7 +81,7 @@ const Layout = styled.div`
 const Header = styled.div`
   max-width: 960px;
   width: 100%;
-  border-bottom: 2px solid #ffff;
+  border-bottom: 1px solid #d9d9d9;
   height: 4rem;
   font-size: 1.1rem;
   display: flex;
