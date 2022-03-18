@@ -11,7 +11,7 @@ const AppLayout = ({ children }: { children: React.ReactNode }) => {
   const menuOne = (
     <Menu>
       <Menu.Item key={shortid.generate()}>
-        <Link href="/post/blutoothSpeaker">블루투스스피커</Link>
+        <Link href="/post/blutoothSpeaker/index.html">블루투스스피커</Link>
       </Menu.Item>
       <Menu.Item key={shortid.generate()}>
         <Link href="/post/blutoothMouse">블루투스마우스</Link>
