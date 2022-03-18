@@ -19,7 +19,7 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
         <meta
           key={shortid.generate()}
           name="description"
-          content={`${data[0].keyword} 추천순위 TOP10을 소개해드립니다.`}
+          content={`${data[0].keyword} 추천순위 TOP10을 소개해드립니다.!!`}
         />
         <meta
           name="keyword"
