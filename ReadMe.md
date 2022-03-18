@@ -1,4 +1,4 @@
-# CoupangPartnersWeb
+# CoupangPartnersWeb - 개발중
 
 ## 프로젝트 소개
 
