@@ -17,7 +17,7 @@ const SearchInput = ({ items }: Props) => {
     setSearchValue(e.target.inputValue);
   };
 
-  const test = (inputValue: string | null) => {
+  const onSearchHandler = (inputValue: string | null) => {
     const temp = items.filter((item) => inputValue && item.value.includes(inputValue)).map((el) => el.value);
     // setFilteredItems(temp[0]);
     inputValue && setFilteredItems(inputValue);
@@ -40,7 +40,7 @@ const SearchInput = ({ items }: Props) => {
                 {...getInputProps()}
                 spellCheck={false}
                 onSearch={() => {
-                  test(inputValue);
+                  onSearchHandler(inputValue);
                 }}
               />
               <StyledUl {...getMenuProps()}>
