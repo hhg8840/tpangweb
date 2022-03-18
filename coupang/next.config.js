@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
-  assetPrefix: '/pages',
 };
 
 module.exports = nextConfig;
