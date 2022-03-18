@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Downshift from 'downshift';
 import styled from 'styled-components';
 import { Input } from 'antd';
@@ -12,7 +12,16 @@ interface Props {
 
 const SearchInput = ({ items }: Props) => {
   const [filteredItems, setFilteredItems] = useRecoilState(filteredItemAtom);
+  const [searchValue, setSearchValue] = useState('');
+  const handleSeachValue = (e: { target: any }) => {
+    setSearchValue(e.target.inputValue);
+  };
 
+  const test = (inputValue: string | null) => {
+    const temp = items.filter((item) => inputValue && item.value.includes(inputValue)).map((el) => el.value);
+    // setFilteredItems(temp[0]);
+    inputValue && setFilteredItems(inputValue);
+  };
   return (
     <Wrapper>
       {/* <StyledSearch placeholder="input search loading default" loading={false} /> */}
@@ -21,21 +30,24 @@ const SearchInput = ({ items }: Props) => {
           console.log(selection.value);
           setFilteredItems(selection.value);
         }}
-        itemToString={(item) => (item ? item.value : '')}
+        itemToString={(item) => {
+          console.log(item);
+          return item ? item.value : '';
+        }}
       >
-        {({
-          getInputProps,
-          getItemProps,
-          getLabelProps,
-          getMenuProps,
-          isOpen,
-          inputValue,
-          highlightedIndex,
-          selectedItem,
-        }) => (
+        {({ getInputProps, getItemProps, getMenuProps, isOpen, inputValue, highlightedIndex, selectedItem }) => (
           <div>
             <SearchWrapper>
-              <StyledSearch {...getInputProps()} spellCheck={false} />
+              <StyledSearch
+                {...getInputProps()}
+                spellCheck={false}
+                onSearch={() => {
+                  test(inputValue);
+                }}
+
+                // value={searchValue}
+                // onChange={handleSeachValue}
+              />
               <StyledUl {...getMenuProps()}>
                 {isOpen
                   ? items
