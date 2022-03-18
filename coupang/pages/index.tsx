@@ -19,6 +19,7 @@ import Link from 'next/link';
 import shortid from 'shortid';
 
 const Home: NextPage = () => {
+  const ssr = process.env.NODE_ENV === 'development' ? '/' : '/index.html';
   const initialDataSet = [keyboard, manWallet, notebook, blutoothMouth, blutoothSpeaker, necklace, actionCam, monitor];
   const temp = [
     'keyboard',
@@ -49,7 +50,7 @@ const Home: NextPage = () => {
         <StyledRow gutter={[30, 30]}>
           {dataSet.map((data) => (
             <StyledCol key={shortid.generate()} xs={24} lg={12}>
-              <Link href={`post/${data[0].nextLink}`}>
+              <Link href={`post/${data[0].nextLink}${ssr}`}>
                 <Container>
                   <StyledImg src={data[0].productImage} alt="" />
                   <Content>{`${data[0].keyword} 추천 순위 보러가기`} </Content>
