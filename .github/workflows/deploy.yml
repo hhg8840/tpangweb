@@ -1,36 +1,31 @@
-name: Next.js deployment practice
+name: front-dev-deploy
 
 on:
-  push:
-    branches: [main]
+  push: # 적용될 액션
+    branches: main # 적용될 브랜치
+    paths:
+      - "out/**" # workflow에서 적용될 path
+
+defaults:
+  run:
+    working-directory: ./out # workflow에서 default working directory
 
 jobs:
-  continuous-deployment:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-latest # 인스턴스 OS
     steps:
-      - name: Git Checkout
-        uses: actions/checkout@v2
+      - name: Checkout source code
+        uses: actions/checkout@v2 # 워크플로에서 액세스할 수 있도록 에서 저장소를 체크아웃
 
-      - name: Use Node.js version 14.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14.x
+      - name: Install Dependencies
+        run: yarn
 
       - name: Build
-        run: |
-          cd coupang
-          npm install -g yarn
-          yarn install --frozen-lockfile
-          yarn build
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: "us-east-1"
+        run: yarn build
 
-      - name: Deploy to S3
-        run: aws s3 sync ./${{ secrets.BUILD_DIRECTORY }} ${{ secrets.AWS_S3_BUCKET_NAME }} --acl public-read --delete
-
-      - name: CloudFront Invalidate Cache
-        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths '/*'
+      - name: S3 Deploy
+        run: aws s3 sync ./dist s3://eungwang-shop/ --acl bucket-owner-full-control # s3 이름 2021-cvi-dev
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
