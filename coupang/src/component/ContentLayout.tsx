@@ -12,7 +12,7 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
   const month = today.getMonth() + 1; // 월
   const date = today.getDate(); // 날짜
   const day = today.getDay(); // 요일
-  const url = 'http://localhost:3000';
+  const url = 'https://gwang.xyz';
   return (
     <AppLayout>
       <Head>
