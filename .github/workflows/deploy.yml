@@ -4,7 +4,7 @@ on:
   push: # 적용될 액션
     branches: main # 적용될 브랜치
     paths:
-      - "coupang/**" # workflow에서 적용될 path
+      - "/**" # workflow에서 적용될 path
 
 defaults:
   run:
