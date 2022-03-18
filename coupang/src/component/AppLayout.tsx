@@ -8,12 +8,12 @@ import shortid from 'shortid';
 type Props = {};
 
 const AppLayout = ({ children }: { children: React.ReactNode }) => {
-  const ssr = process.env.NODE_ENV === 'development' ? '/index.html' : '/';
+  const ssr = process.env.NODE_ENV === 'development' ? '/' : '/index.html';
 
   const menuOne = (
     <Menu>
       <Menu.Item key={shortid.generate()}>
-        <Link href="/post/blutoothSpeaker/">블루투스스피커</Link>
+        <Link href={`/post/blutoothSpeaker${ssr}`}>블루투스스피커</Link>
       </Menu.Item>
       <Menu.Item key={shortid.generate()}>
         <Link href="/post/blutoothMouse/">블루투스마우스</Link>
