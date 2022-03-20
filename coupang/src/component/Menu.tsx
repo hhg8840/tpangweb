@@ -28,6 +28,9 @@ export const menuOne = (
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/webCam`}>웹캠</Link>
     </Menu.Item>
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/portableMonitor`}>포터블모니터</Link>
+    </Menu.Item>
   </Menu>
 );
 
@@ -50,6 +53,25 @@ export const menuTwo = (
     </Menu.Item>
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/capsuleCoffee`}>캡슐커피머신</Link>
+    </Menu.Item>
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/coffeeGrinder`}>커피그라인더</Link>
+    </Menu.Item>
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/carCleaner`}>차량용청소기</Link>
+    </Menu.Item>
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/scale`}>체중계</Link>
+    </Menu.Item>
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/filterShower`}>필터샤워기</Link>
+    </Menu.Item>
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/massageGun`}>마사지건</Link>
+    </Menu.Item>
+
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/binoculars`}>쌍안경</Link>
     </Menu.Item>
   </Menu>
 );

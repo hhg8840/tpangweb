@@ -1,28 +1,27 @@
-prevData = require("./doc/prevData.json");
-massageGun = require("./doc/마사지건.json");
-binoculars = require("./doc/쌍안경.json");
-oven = require("./doc/전기오븐.json");
-carCleaner = require("./doc/차량용청소기.json");
-scale = require("./doc/체중계.json");
-coffeeGrinder = require("./doc/커피그라인더.json");
-portableMonitor = require("./doc/포터블모니터.json");
-filterShower = require("./doc/필터샤워기.json");
+golfClub = require("./doc/골프채.json");
+MensPerfume = require("./doc/남자향수.json");
+basketBall = require("./doc/농구공.json");
+badmintonRacket = require("./doc/배드민턴라켓.json");
+backpack = require("./doc/백팩.json");
+dumbbell = require("./doc/아령.json");
+soccerBall = require("./doc/축구공.json");
+crossBag = require("./doc/크로스백.json");
+currentData = require("./doc/currentData.json");
 
 fs = require("fs");
 
 const DataCompile = {
-  ...prevData,
-  massageGun: massageGun,
-  binoculars: binoculars,
-  oven: oven,
-  carCleaner: carCleaner,
-  scale: scale,
-  coffeeGrinder: coffeeGrinder,
-  portableMonitor: portableMonitor,
-  filterShower: filterShower,
+  ...currentData,
+  golfClub: golfClub,
+  MensPerfume: MensPerfume,
+  badmintonRacket: badmintonRacket,
+  backpack: backpack,
+  dumbbell: dumbbell,
+  soccerBall: soccerBall,
+  crossBag: crossBag,
 };
 
-fs.writeFile(`./currentData.json`, JSON.stringify(DataCompile, null, 4), (err) => {
+fs.writeFile(`./doc/currentData.json`, JSON.stringify(DataCompile, null, 4), (err) => {
   if (err) {
     console.error(err);
     return;

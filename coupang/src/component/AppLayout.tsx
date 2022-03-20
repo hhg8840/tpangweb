@@ -37,7 +37,7 @@ const AppLayout: React.FunctionComponent<Props> = ({ children, keywords }) => {
         </StyledDropdown>
         <StyledDropdown overlay={menuThree}>
           <a className="ant-dropdown-link" onClick={(e) => e.preventDefault()}>
-            패션/악세사리
+            기타
             <DownOutlined />
           </a>
         </StyledDropdown>

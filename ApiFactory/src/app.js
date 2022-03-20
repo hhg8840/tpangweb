@@ -3,17 +3,7 @@ const utf8 = require("utf8");
 const { generateProductData } = require("./generateProductData");
 const fs = require("fs");
 require("dotenv").config({ path: "../.env" });
-const keywords = [
-  "커피그라인더",
-  "차량용청소기",
-  "체중계",
-  "필터샤워기",
-  "토스트기",
-  "마사지건",
-  "포터블모니터",
-  "전기오븐",
-  "쌍안경",
-];
+const keywords = ["백팩", "크로스백", "아령", "축구공", "농구공", "배드민턴라켓", "골프채", "남자향수"];
 const REQUEST_METHOD = "GET";
 const DOMAIN = "https://api-gateway.coupang.com";
 
