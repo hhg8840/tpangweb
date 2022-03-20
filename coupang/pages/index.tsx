@@ -12,6 +12,7 @@ import shortid from 'shortid';
 import { filteredItemAtom } from 'src/Atoms/atom';
 import { IData } from '@customTypes/allTypes';
 import { indexStateAtom } from 'src/Atoms/atom';
+import { shuffle } from 'lodash';
 
 const Home: NextPage = () => {
   const initialDataSet = Object.values(data);
@@ -34,7 +35,7 @@ const Home: NextPage = () => {
       .map((data) => data)
       .filter((el) => `${el.keyword} 추천 순위 보러가기`.includes(filteredItems));
     setFilteredData(() => {
-      return [...tempData];
+      return shuffle([...tempData]);
     });
   }, [filteredItems]);
 
