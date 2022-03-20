@@ -1,7 +1,6 @@
 import React from 'react';
 import Document, { DocumentContext, Head, Html, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
-import notebook from '@productsDetail/2022.3.17/2022.3.17_노트북.json';
 
 class MyDocument extends Document {
   static async getInitialProps(context: DocumentContext) {
