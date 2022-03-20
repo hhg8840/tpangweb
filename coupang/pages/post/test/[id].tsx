@@ -24,7 +24,7 @@ const Post = () => {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   // Get all posts via API, file, etc.
-  const posts = [{ id: 'kiss' }, { id: 'notebook' }, { id: '3' }, { id: '4' }, { id: '5' }]; // Example
+  const posts = [{ id: 'kiss' }, { id: 'notebook' }]; // Example
   const paths = posts.map((post) => ({
     params: { id: post.id },
   }));
