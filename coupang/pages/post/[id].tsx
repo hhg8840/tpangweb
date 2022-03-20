@@ -1,15 +1,14 @@
 import React from 'react';
 import ContentLayout from 'src/component/ContentLayout';
-import data from '@productsDetail/2022.3.17/test.json';
+import data from '@productsDetail/Products(1~10).json';
 import { useRouter } from 'next/router';
 import { IData } from '@customTypes/allTypes';
 import { GetStaticPaths, GetStaticProps } from 'next';
 
 type Props = {};
-
+const keywordArr = Object.keys(data);
 const Post = () => {
   const router = useRouter();
-  const keywordArr = Object.keys(data);
   let id: string = '';
   if (typeof router.query.id === 'string') id = router.query.id;
 
@@ -24,7 +23,11 @@ const Post = () => {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   // Get all posts via API, file, etc.
-  const posts = [{ id: 'kiss' }, { id: 'notebook' }]; // Example
+  // const posts = [{ id: 'kiss' }, { id: 'notebook' }, { id: '3' }, { id: '4' }, { id: '5' }]; // Example
+  const posts = keywordArr.map((keyword) => ({
+    id: keyword,
+  }));
+
   const paths = posts.map((post) => ({
     params: { id: post.id },
   }));
