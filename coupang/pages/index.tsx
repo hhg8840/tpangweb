@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react';
 import AppLayout from 'src/component/AppLayout';
 import { Col, Row } from 'antd';
 import styled from 'styled-components';
-import data from '@productsDetail/Products(1~10).json';
+import data from '@productsDetail/Products.json';
 import Link from 'next/link';
 import shortid from 'shortid';
 import { filteredItemAtom } from 'src/Atoms/atom';
@@ -16,18 +16,7 @@ import { indexStateAtom } from 'src/Atoms/atom';
 const Home: NextPage = () => {
   const initialDataSet = Object.values(data);
   const objectKey = Object.keys(data);
-  // const temp = [
-  //   'keyboard',
-  //   'womanWallet',
-  //   'manWallet',
-  //   'notebook',
-  //   'blutoothMouse',
-  //   'blutoothSpeaker',
-  //   'necklace',
-  //   'actionCam',
-  //   'monitor',
-  //   'washingMachine',
-  // ];
+
   const tempDataSet = initialDataSet.map((data, idx) =>
     data.map((el) => {
       return { ...el, nextLink: objectKey[idx] };

@@ -1,8 +1,8 @@
 const axios = require("axios");
 const utf8 = require("utf8");
-const { generateProductData } = require("./lib/generateProductData");
+const { generateProductData } = require("./generateProductData");
 const fs = require("fs");
-
+require("dotenv").config({ path: "../.env" });
 const keywords = [
   "귀걸이",
   "게이밍헤드셋",

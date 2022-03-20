@@ -1,11 +1,12 @@
 const axios = require("axios");
 fs = require("fs");
 const { generateHmac } = require("./hmacGenerator");
+require("dotenv").config({ path: "../.env" });
 
 module.exports = {
   generateProductData: async (keyword, URL, DOMAIN, REQUEST_METHOD) => {
-    const ACCESS_KEY = "8ffaeca8-2c9d-4e68-a208-2ac6d728fc51";
-    const SECRET_KEY = "e6b0e1c0e5589ff34061c21fc338e3ccd1ba954a";
+    const ACCESS_KEY = process.env.ACCESS_KEY;
+    const SECRET_KEY = process.env.SECRET_KEY;
 
     const authorization = generateHmac(REQUEST_METHOD, URL, SECRET_KEY, ACCESS_KEY);
     axios.defaults.baseURL = DOMAIN;
@@ -17,12 +18,16 @@ module.exports = {
         url: URL,
       });
       console.log(response.data);
-      fs.writeFile(`./${keyword}.json`, JSON.stringify(response.data.data.productData, null, 4), (err) => {
-        if (err) {
-          console.error(err);
-          return;
+      fs.writeFile(
+        `./doc/${keyword}.json`,
+        JSON.stringify(response.data.data.productData, null, 4),
+        (err) => {
+          if (err) {
+            console.error(err);
+            return;
+          }
         }
-      });
+      );
     } catch (err) {
       // console.error(err.response.data);
       console.error(err);

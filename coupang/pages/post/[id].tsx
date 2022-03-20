@@ -1,6 +1,6 @@
 import React from 'react';
 import ContentLayout from 'src/component/ContentLayout';
-import data from '@productsDetail/Products(1~10).json';
+import data from '@productsDetail/Products.json';
 import { useRouter } from 'next/router';
 import { IData } from '@customTypes/allTypes';
 import { GetStaticPaths, GetStaticProps } from 'next';
