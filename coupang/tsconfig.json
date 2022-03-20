@@ -15,6 +15,7 @@
     "jsx": "preserve",
     "incremental": true,
     "baseUrl": ".",
+    "suppressImplicitAnyIndexErrors": true,
     "paths": {
       "@pages/*": ["pages/*"],
       "@components/*": ["src/components/*"],

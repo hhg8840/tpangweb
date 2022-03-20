@@ -42,5 +42,8 @@ export const menuThree = (
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/manWallet${ssr}`}>남자지갑</Link>
     </Menu.Item>
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/womanWallet${ssr}`}>여자지갑</Link>
+    </Menu.Item>
   </Menu>
 );

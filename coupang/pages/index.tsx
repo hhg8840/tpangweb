@@ -8,12 +8,14 @@ import { Col, Row } from 'antd';
 import styled from 'styled-components';
 import keyboard from '@productsDetail/2022.3.17/2022.3.17_게이밍키보드.json';
 import manWallet from '@productsDetail/2022.3.17/2022.3.17_남성지갑.json';
+import womanWallet from '@productsDetail/2022.3.17/2022.3.17_여성지갑.json';
 import notebook from '@productsDetail/2022.3.17/2022.3.17_노트북.json';
 import blutoothMouth from '@productsDetail/2022.3.17/2022.3.17_블루투스마우스.json';
 import blutoothSpeaker from '@productsDetail/2022.3.17/2022.3.17_블루투스스피커.json';
 import necklace from '@productsDetail/2022.3.17/2022.3.17_목걸이.json';
 import actionCam from '@productsDetail/2022.3.17/2022.3.17_액션캠.json';
 import monitor from '@productsDetail/2022.3.17/2022.3.17_모니터.json';
+import washingMachine from '@productsDetail/2022.3.17/2022.3.17_통돌이세탁기.json';
 import Link from 'next/link';
 import shortid from 'shortid';
 import { filteredItemAtom } from 'src/Atoms/atom';
@@ -22,9 +24,21 @@ import { indexStateAtom } from 'src/Atoms/atom';
 
 const Home: NextPage = () => {
   const ssr = process.env.NODE_ENV === 'development' ? '/' : '/index.html';
-  const initialDataSet = [keyboard, manWallet, notebook, blutoothMouth, blutoothSpeaker, necklace, actionCam, monitor];
+  const initialDataSet = [
+    keyboard,
+    womanWallet,
+    manWallet,
+    notebook,
+    blutoothMouth,
+    blutoothSpeaker,
+    necklace,
+    actionCam,
+    monitor,
+    washingMachine,
+  ];
   const temp = [
     'keyboard',
+    'womanWallet',
     'manWallet',
     'notebook',
     'blutoothMouth',
@@ -32,6 +46,7 @@ const Home: NextPage = () => {
     'necklace',
     'actionCam',
     'monitor',
+    'washingMachine',
   ];
   const tempDataSet = initialDataSet.map((data, idx) =>
     data.map((el) => {
