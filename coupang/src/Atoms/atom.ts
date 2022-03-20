@@ -1,22 +1,21 @@
-import { IData } from '@customTypes/allTypes';
 import { atom } from 'recoil';
 
 export const searchTextAtom = atom<string>({
-  key: 'searchTextInputAtom',
+  key: 'searchTextInputAtomKey',
   default: '',
 });
 
 export const mainKeywordAtom = atom<any[]>({
-  key: 'mainKeywordAtom',
+  key: 'mainKeywordAtomKey',
   default: [],
 });
 
 export const filteredItemAtom = atom<string>({
-  key: 'filteredItemAtom',
+  key: 'filteredItemAtomKey',
   default: '',
 });
 
 export const indexStateAtom = atom<boolean>({
-  key: 'indexStateAtom',
+  key: 'indexStateAtomKey',
   default: false,
 });

@@ -9,7 +9,6 @@ import { useRecoilState } from 'recoil';
 import { searchTextAtom } from 'src/Atoms/atom';
 
 const ContentLayout = ({ data }: { data: IData[] }) => {
-  const ssr = process.env.NODE_ENV === 'development' ? '/' : '/index.html';
   const today = new Date();
   const year = today.getFullYear(); // 년도
   const month = today.getMonth() + 1; // 월

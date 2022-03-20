@@ -23,7 +23,6 @@ import { IData } from '@customTypes/allTypes';
 import { indexStateAtom } from 'src/Atoms/atom';
 
 const Home: NextPage = () => {
-  const ssr = process.env.NODE_ENV === 'development' ? '/' : '/index.html';
   const initialDataSet = [
     keyboard,
     womanWallet,
@@ -90,7 +89,7 @@ const Home: NextPage = () => {
         <StyledRow gutter={[30, 30]}>
           {(filteredData.length ? filteredData : dataSet).map((data) => (
             <StyledCol key={shortid.generate()} xs={24} lg={12}>
-              <Link href={`post/${data.nextLink}${ssr}`}>
+              <Link href={`post/${data.nextLink}`}>
                 <Container>
                   <StyledImg src={data.productImage} alt="" />
                   <Content>{`${data.keyword} 추천 순위 보러가기`} </Content>
