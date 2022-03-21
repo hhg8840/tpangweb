@@ -61,7 +61,6 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
             <br />※ 우측 공유하기 버튼을 눌러 마음에 드는 상품을 카카오톡으로 공유해보세요.
           </div>
         </Intro>
-
         <ContainerWrapper>
           {filteredData?.map((item) => (
             <Container key={shortid.generate()} onClick={() => window.open(item.productUrl)}>
@@ -99,6 +98,16 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
 };
 
 export default ContentLayout;
+
+const ContainerWrapper = styled.div`
+  max-width: 1200px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`;
+
 const IframeWrapper = styled.div`
   width: 45%;
   @media screen and (max-width: 992px) {
@@ -124,15 +133,6 @@ const ContentLayoutWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 100vw;
-`;
-
-const ContainerWrapper = styled.div`
-  max-width: 1200px;
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 `;
 
 const Container = styled.div`

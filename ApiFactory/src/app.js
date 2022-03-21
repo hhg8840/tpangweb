@@ -4,14 +4,14 @@ const { generateProductData } = require("./generateProductData");
 const fs = require("fs");
 require("dotenv").config({ path: "../.env" });
 const keywords = [
-  "비타민",
-  "유선이어폰",
-  "전기장판",
-  "샴푸",
-  "바디워시",
-  "트리트먼트",
-  "고대기",
-  "남자BB크림",
+  "자바스크립트책",
+  "노드책",
+  "타입스크립트책",
+  "자바책",
+  "파이썬책",
+  "C언어책",
+  "리액트책",
+  "AWS책",
 ];
 const REQUEST_METHOD = "GET";
 const DOMAIN = "https://api-gateway.coupang.com";

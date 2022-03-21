@@ -1,25 +1,25 @@
-curlingIron = require("./doc/고대기.json");
-MenBB = require("./doc/남자BB크림.json");
-bodyWash = require("./doc/바디워시.json");
-vitamin = require("./doc/비타민.json");
-shampoo = require("./doc/샴푸.json");
-normalEarphone = require("./doc/유선이어폰.json");
-electricBlanket = require("./doc/전기장판.json");
-treatment = require("./doc/트리트먼트.json");
+AWSBook = require("./doc/AWS책.json");
+CBook = require("./doc/C언어책.json");
+ReactBook = require("./doc/리액트책.json");
+NodeBook = require("./doc/노드책.json");
+JSBook = require("./doc/자바스크립트책.json");
+JavaBook = require("./doc/자바책.json");
+TSBOOK = require("./doc/타입스크립트책.json");
+PythonBook = require("./doc/파이썬책.json");
 currentData = require("./doc/currentData.json");
 
 fs = require("fs");
 
 const DataCompile = {
   ...currentData,
-  curlingIron: curlingIron,
-  MenBB: MenBB,
-  bodyWash: bodyWash,
-  vitamin: vitamin,
-  shampoo: shampoo,
-  normalEarphone: normalEarphone,
-  electricBlanket: electricBlanket,
-  treatment: treatment,
+  AWSBook: AWSBook,
+  CBook: CBook,
+  ReactBook: ReactBook,
+  NodeBook: NodeBook,
+  JSBook: JSBook,
+  JavaBook: JavaBook,
+  TSBOOK: TSBOOK,
+  PythonBook: PythonBook,
 };
 
 fs.writeFile(`./doc/currentData.json`, JSON.stringify(DataCompile, null, 4), (err) => {
