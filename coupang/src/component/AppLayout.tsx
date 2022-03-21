@@ -43,20 +43,7 @@ const TestLayout: React.FunctionComponent<Props> = ({ children, keywords }) => {
             <LogoImg src="/images/Logo.png" alt="" />
           </LogoWrapper>
         </Link>
-        {indexState ? (
-          <SearchInput items={items} />
-        ) : (
-          <IframeWrapper>
-            <iframe
-              src="https://coupa.ng/cchmez"
-              width="100%"
-              height="36"
-              frameBorder="0"
-              scrolling="no"
-              referrerPolicy="unsafe-url"
-            ></iframe>
-          </IframeWrapper>
-        )}
+        {indexState && <SearchInput items={items} />}
       </Header>
       {children}
       <Footer>Copyright © 2022 All Rights Reserved by Eungwang</Footer>
@@ -108,13 +95,6 @@ const Footer = styled.div`
   padding: 50px 0;
   font-size: 1rem;
   color: white;
-`;
-
-const IframeWrapper = styled.div`
-  width: 50%;
-  @media screen and (max-width: 992px) {
-    width: 90%;
-  }
 `;
 
 const ScrollToTopBtn = styled.div<IScrollToTopBtn>`

@@ -57,10 +57,11 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
           인기순위 TOP10에 대해 알아보겠습니다.
           <br />
           <div>
-            ※ 상세정보 및 후기 버튼을 통해, 상품의 자세한 정보 및 후기를 보실 수 있습니다.
+            ※ 상세정보 및 후기 버튼을 눌러 상품의 자세한 정보 및 후기를 확인할 수 있습니다.
             <br />※ 우측 공유하기 버튼을 눌러 마음에 드는 상품을 카카오톡으로 공유해보세요.
           </div>
         </Intro>
+
         <ContainerWrapper>
           {filteredData?.map((item) => (
             <Container key={shortid.generate()} onClick={() => window.open(item.productUrl)}>
@@ -80,6 +81,17 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
               </ButtonWrapper>
             </Container>
           ))}
+          <Intro>쿠팡에서 다른 상품도 한번 검색해보세요 😊</Intro>
+          <IframeWrapper>
+            <iframe
+              src="https://coupa.ng/cchmez"
+              width="100%"
+              height="36"
+              frameBorder="0"
+              scrolling="no"
+              referrerPolicy="unsafe-url"
+            ></iframe>
+          </IframeWrapper>
         </ContainerWrapper>
       </ContentLayoutWrapper>
     </AppLayout>
@@ -87,7 +99,12 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
 };
 
 export default ContentLayout;
-
+const IframeWrapper = styled.div`
+  width: 45%;
+  @media screen and (max-width: 992px) {
+    width: 90%;
+  }
+`;
 const Intro = styled.p`
   text-align: center;
   color: white;
@@ -101,6 +118,7 @@ const Intro = styled.p`
 `;
 
 const ContentLayoutWrapper = styled.div`
+  margin-top: -80px;
   display: flex;
   align-items: center;
   flex-direction: column;
