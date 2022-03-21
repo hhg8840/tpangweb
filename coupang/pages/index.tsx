@@ -89,6 +89,11 @@ const Container = styled.div`
   background-color: white;
   height: 400px;
   border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  :hover {
+    transform: scale(1.05);
+  }
 `;
 
 const StyledImg = styled.img`

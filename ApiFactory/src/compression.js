@@ -1,24 +1,25 @@
-golfClub = require("./doc/골프채.json");
-MensPerfume = require("./doc/남자향수.json");
-basketBall = require("./doc/농구공.json");
-badmintonRacket = require("./doc/배드민턴라켓.json");
-backpack = require("./doc/백팩.json");
-dumbbell = require("./doc/아령.json");
-soccerBall = require("./doc/축구공.json");
-crossBag = require("./doc/크로스백.json");
+difuser = require("./doc/디퓨져.json");
+mask = require("./doc/마스크.json");
+monitorArm = require("./doc/모니터암.json");
+wetTissue = require("./doc/물티슈.json");
+moisturizingCream = require("./doc/수분크림.json");
+womanPerfume = require("./doc/여자향수.json");
+handcream = require("./doc/텀블러.json");
+tumbler = require("./doc/핸드크림.json");
 currentData = require("./doc/currentData.json");
 
 fs = require("fs");
 
 const DataCompile = {
   ...currentData,
-  golfClub: golfClub,
-  MensPerfume: MensPerfume,
-  badmintonRacket: badmintonRacket,
-  backpack: backpack,
-  dumbbell: dumbbell,
-  soccerBall: soccerBall,
-  crossBag: crossBag,
+  difuser: difuser,
+  mask: mask,
+  monitorArm: monitorArm,
+  wetTissue: wetTissue,
+  moisturizingCream: moisturizingCream,
+  womanPerfume: womanPerfume,
+  handcream: handcream,
+  tumbler: tumbler,
 };
 
 fs.writeFile(`./doc/currentData.json`, JSON.stringify(DataCompile, null, 4), (err) => {
