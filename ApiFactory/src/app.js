@@ -3,7 +3,16 @@ const utf8 = require("utf8");
 const { generateProductData } = require("./generateProductData");
 const fs = require("fs");
 require("dotenv").config({ path: "../.env" });
-const keywords = ["여자향수", "핸드크림", "물티슈", "텀블러", "모니터암", "마스크", "디퓨져", "수분크림"];
+const keywords = [
+  "선풍기",
+  "무드등",
+  "섬유유연제",
+  "폼클렌징",
+  "샴푸",
+  "트리트먼트",
+  "바디워시",
+  "에어프라이어",
+];
 const REQUEST_METHOD = "GET";
 const DOMAIN = "https://api-gateway.coupang.com";
 

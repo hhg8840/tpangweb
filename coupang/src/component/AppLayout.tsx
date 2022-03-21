@@ -47,6 +47,7 @@ export default TestLayout;
 
 const LogoWrapper = styled.div`
   width: 40%;
+  min-width: 250px;
 `;
 
 const LogoImg = styled.img`
@@ -70,9 +71,6 @@ const Header = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  svg {
-    margin-left: 5px;
-  }
 `;
 
 const Footer = styled.div`
@@ -84,5 +82,7 @@ const Footer = styled.div`
 
 const IframeWrapper = styled.div`
   width: 50%;
-  min-width: 160px;
+  @media screen and (max-width: 992px) {
+    width: 90%;
+  }
 `;

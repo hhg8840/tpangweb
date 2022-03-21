@@ -80,9 +80,11 @@ const StyledSearch = styled(Search)`
 
 const Wrapper = styled.div`
   width: 50%;
-  min-width: 160px;
   margin-bottom: 30px;
   position: relative;
+  @media screen and (max-width: 992px) {
+    width: 92%;
+  }
 `;
 
 const StyledUl = styled.ul`

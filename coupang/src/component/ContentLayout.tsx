@@ -206,6 +206,3 @@ const ShareImg = styled.img`
   }
   z-index: 500;
 `;
-function debounce(arg0: () => void, arg1: number) {
-  throw new Error('Function not implemented.');
-}
