@@ -18,7 +18,7 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
   const url = 'https://gwang.xyz';
 
   return (
-    <AppLayout>
+    <AppLayoutWrapper>
       <Head>
         <title key={shortid.generate()}>{`${year}년${month}월 ${data[0].keyword} 추천순위 TOP10`}</title>
         <meta
@@ -61,7 +61,7 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
             <br />※ 우측 공유하기 버튼을 눌러 마음에 드는 상품을 카카오톡으로 공유해보세요.
           </div>
         </Intro>
-        <ContainerWrapper>
+        <ContentWrapper>
           {filteredData?.map((item) => (
             <Container key={shortid.generate()} onClick={() => window.open(item.productUrl)}>
               <RankWrapper>
@@ -91,15 +91,22 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
               referrerPolicy="unsafe-url"
             ></iframe>
           </IframeWrapper>
-        </ContainerWrapper>
+        </ContentWrapper>
       </ContentLayoutWrapper>
-    </AppLayout>
+    </AppLayoutWrapper>
   );
 };
 
 export default ContentLayout;
 
-const ContainerWrapper = styled.div`
+const AppLayoutWrapper = styled(AppLayout)`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+const ContentWrapper = styled.div`
   max-width: 1200px;
   width: 80%;
   display: flex;
@@ -109,6 +116,7 @@ const ContainerWrapper = styled.div`
 `;
 
 const IframeWrapper = styled.div`
+  margin: 0 auto;
   width: 45%;
   @media screen and (max-width: 992px) {
     width: 90%;
@@ -129,8 +137,8 @@ const Intro = styled.p`
 const ContentLayoutWrapper = styled.div`
   margin-top: -80px;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   width: 100vw;
 `;
@@ -140,7 +148,7 @@ const Container = styled.div`
   border-radius: 15px;
   width: 40%;
   background-color: white;
-  margin-top: 5rem;
+  margin: 5rem auto 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
