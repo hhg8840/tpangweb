@@ -34,6 +34,7 @@ class MyDocument extends Document {
         <Head>
           <meta name="naver-site-verification" content="d4304a868bf4b89b3591cc63f628ef20f0d7b1f7" />
           <meta name="google-site-verification" content="O0iwJgRLDHU7gDa2x6zDVNtJDxdFUQ13Kd1b31wdV_4" />
+          <meta name="msvalidate.01" content="38CA1570221B70CC0F383C740122F242" />
           <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
         </Head>
         <body>
