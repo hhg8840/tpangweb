@@ -5,7 +5,7 @@ import { searchTextAtom, mainKeywordAtom } from 'src/Atoms/atom';
 import React, { useEffect, useState } from 'react';
 import AppLayout from 'src/component/AppLayout';
 import { Col, Row } from 'antd';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import data from '@productsDetail/Products.json';
 import Link from 'next/link';
 import shortid from 'shortid';
@@ -13,6 +13,7 @@ import { filteredItemAtom } from 'src/Atoms/atom';
 import { IData } from '@customTypes/allTypes';
 import { indexStateAtom } from 'src/Atoms/atom';
 import { shuffle } from 'lodash';
+import { Audio, Watch } from 'react-loader-spinner';
 
 const Home: NextPage = () => {
   const initialDataSet = Object.values(data);
@@ -29,20 +30,25 @@ const Home: NextPage = () => {
   });
   const [filteredItems, setFilteredItems] = useRecoilState(filteredItemAtom);
   const [filteredData, setFilteredData] = useState<any[] | IData[]>([]);
+  const [loadingState, setloadingState] = useState(true);
   const setIndexState = useSetRecoilState(indexStateAtom);
   useEffect(() => {
-    const tempData = dataSet
-      .map((data) => data)
-      .filter((el) => `${el.keyword} 추천 순위 보러가기`.includes(filteredItems));
-    setFilteredData(() => {
-      return shuffle([...tempData]);
-    });
+    try {
+      const tempData = dataSet
+        .map((data) => data)
+        .filter((el) => `${el.keyword} 추천 순위 보러가기`.includes(filteredItems));
+      setFilteredData(() => {
+        return shuffle([...tempData]);
+      });
+      setloadingState(false);
+    } catch (e) {
+      console.log(e);
+    }
   }, [filteredItems]);
 
   useEffect(() => {
     setIndexState(true);
     return () => {
-      setFilteredData([]);
       setFilteredItems('');
       setIndexState(false);
     };
@@ -52,22 +58,29 @@ const Home: NextPage = () => {
     <React.StrictMode>
       <Head>
         <title>Sim's SaleShop - 생활가전제품 추천순위 TOP10</title>
-        <meta name="description" content="2022 가전제품, 생활용품 인기 추천 순위를 알려드립니다." />
-        <meta name="keyword" content="키보드추천, 노트북추천, 마우스추천, " />
+        <meta name="description" content="2022 가전제품, 생활필수품 등의 인기 추천 순위를 알려드립니다." />
+        <meta
+          name="keyword"
+          content="키보드추천, 노트북추천, 마우스추천,모니터추천, 웹캠추천, 체중계추천, 귀걸이추천 "
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <AppLayout keywords={keywords}>
-        <StyledRow gutter={[30, 30]}>
-          {(filteredData.length ? filteredData : dataSet).map((data) => (
-            <StyledCol key={shortid.generate()} xs={24} lg={12}>
-              <Link href={`post/${data.nextLink}`}>
-                <Container>
-                  <StyledImg src={data.productImage} alt="" />
-                  <Content>{`${data.keyword} 추천 순위 보러가기`} </Content>
-                </Container>
-              </Link>
-            </StyledCol>
-          ))}
+        <StyledRow gutter={[30, 30]} loading={loadingState}>
+          {filteredData.length >= 1 && !loadingState ? (
+            filteredData.map((data) => (
+              <StyledCol key={shortid.generate()} xs={24} lg={12}>
+                <Link href={`post/${data.nextLink}`}>
+                  <Container>
+                    <StyledImg src={data.productImage} alt="" />
+                    <Content>{`${data.keyword} 추천 순위 보러가기`} </Content>
+                  </Container>
+                </Link>
+              </StyledCol>
+            ))
+          ) : (
+            <Watch height="300" width="300" color="orange" ariaLabel="loading" />
+          )}
         </StyledRow>
       </AppLayout>
     </React.StrictMode>
@@ -76,10 +89,20 @@ const Home: NextPage = () => {
 
 export default Home;
 
-const StyledRow = styled(Row)`
+interface loading {
+  loading: boolean;
+}
+
+const StyledRow = styled(Row)<loading>`
   margin-top: 20px;
   width: 100%;
   max-width: 960px;
+  justify-content: center !important;
+  ${(props) =>
+    props.loading &&
+    css`
+      padding-top: 100px;
+    `}
 `;
 
 const StyledCol = styled(Col)``;
