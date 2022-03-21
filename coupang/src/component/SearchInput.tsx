@@ -75,16 +75,13 @@ const SearchInput = ({ items }: Props) => {
 export default SearchInput;
 
 const StyledSearch = styled(Search)`
-  /* position: absolute;
-  top: 0; */
   width: 100%;
 `;
 
 const Wrapper = styled.div`
-  width: 35%;
+  width: 50%;
   min-width: 160px;
-  margin-left: auto;
-  margin-right: 10px;
+  margin-bottom: 30px;
   position: relative;
 `;
 

@@ -1,10 +1,7 @@
 import styled from 'styled-components';
-import { Menu, Dropdown } from 'antd';
-import { DownOutlined } from '@ant-design/icons';
 import Link from 'next/link';
 import { useRecoilValue } from 'recoil';
 import { indexStateAtom } from 'src/Atoms/atom';
-import { menuOne, menuThree, menuTwo } from './Menu';
 import SearchInput from './SearchInput';
 
 interface Props {
@@ -12,7 +9,7 @@ interface Props {
   keywords?: string[];
 }
 
-const AppLayout: React.FunctionComponent<Props> = ({ children, keywords }) => {
+const TestLayout: React.FunctionComponent<Props> = ({ children, keywords }) => {
   const items: { value: string }[] = [];
   keywords?.map((el) => items.push({ value: el }));
   const indexState = useRecoilValue(indexStateAtom);
@@ -21,27 +18,10 @@ const AppLayout: React.FunctionComponent<Props> = ({ children, keywords }) => {
     <Layout>
       <Header>
         <Link href="/">
-          <Home>Home</Home>
+          <LogoWrapper>
+            <LogoImg src="/images/Logo.png" alt="" />
+          </LogoWrapper>
         </Link>
-        <StyledDropdown overlay={menuOne}>
-          <a className="ant-dropdown-link" onClick={(e) => e.preventDefault()}>
-            전자기기
-            <DownOutlined />
-          </a>
-        </StyledDropdown>
-        <StyledDropdown overlay={menuTwo}>
-          <a className="ant-dropdown-link" onClick={(e) => e.preventDefault()}>
-            생활가전
-            <DownOutlined />
-          </a>
-        </StyledDropdown>
-        <StyledDropdown overlay={menuThree}>
-          <a className="ant-dropdown-link" onClick={(e) => e.preventDefault()}>
-            기타
-            <DownOutlined />
-          </a>
-        </StyledDropdown>
-
         {indexState ? (
           <SearchInput items={items} />
         ) : (
@@ -63,27 +43,15 @@ const AppLayout: React.FunctionComponent<Props> = ({ children, keywords }) => {
   );
 };
 
-export default AppLayout;
+export default TestLayout;
 
-const Home = styled.a`
-  color: white;
-  cursor: pointer;
-  margin-right: 3.875rem;
-  margin-left: 1.875rem;
+const LogoWrapper = styled.div`
+  width: 40%;
 `;
 
-const StyledDropdown = styled(Dropdown)`
-  color: white;
-  + a {
-    margin-left: 3rem;
-  }
-  .ant-dropdown-menu-title-content {
-    display: flex !important;
-    flex-direction: column !important;
-    a {
-      padding: 10px 0;
-    }
-  }
+const LogoImg = styled.img`
+  width: 100%;
+  cursor: pointer;
 `;
 
 const Layout = styled.div`
@@ -98,11 +66,9 @@ const Layout = styled.div`
 const Header = styled.div`
   max-width: 960px;
   width: 100%;
-  border-bottom: 1px solid #d9d9d9;
-  height: 4rem;
   font-size: 1.1rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   svg {
     margin-left: 5px;
@@ -117,9 +83,6 @@ const Footer = styled.div`
 `;
 
 const IframeWrapper = styled.div`
-  width: 30%;
-  margin-left: auto;
-  margin-top: 10px;
-  margin-right: 10px;
+  width: 50%;
   min-width: 160px;
 `;
