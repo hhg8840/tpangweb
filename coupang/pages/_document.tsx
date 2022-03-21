@@ -32,6 +32,7 @@ class MyDocument extends Document {
     return (
       <Html lang="ko">
         <Head>
+          <meta name="google-site-verification" content="O0iwJgRLDHU7gDa2x6zDVNtJDxdFUQ13Kd1b31wdV_4" />
           <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
         </Head>
         <body>
