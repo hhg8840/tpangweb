@@ -47,8 +47,20 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
         <meta key={shortid.generate()} property="og:locale" content="ko_KR" />
       </Head>
       <ContentLayoutWrapper>
-        <Title>{`${year}년${month}월`}</Title>
+        <Title>{`${year}년${month}월`} </Title>
         <Title>{data[0].keyword} 인기순위 TOP10</Title>
+        <Intro>
+          {`안녕하세요. Sim's SaleShop 매니져 심랭킹입니다😊`}
+          <br />
+          {`오늘은 ${year}년 ${month}월에 가장 많이 팔린 ${data[0].keyword} `}
+          <br />
+          인기순위 TOP10에 대해 알아보겠습니다.
+          <br />
+          <div>
+            ※ 상세정보 및 후기 버튼을 통해, 상품의 자세한 정보 및 후기를 보실 수 있습니다.
+            <br />※ 우측 공유하기 버튼을 눌러 마음에 드는 상품을 카카오톡으로 공유해보세요.
+          </div>
+        </Intro>
         <ContainerWrapper>
           {filteredData?.map((item) => (
             <Container key={shortid.generate()} onClick={() => window.open(item.productUrl)}>
@@ -75,6 +87,18 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
 };
 
 export default ContentLayout;
+
+const Intro = styled.p`
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 40px;
+  div {
+    font-size: 1rem;
+    margin-top: 30px;
+    color: #f1c74a;
+  }
+`;
 
 const ContentLayoutWrapper = styled.div`
   display: flex;
