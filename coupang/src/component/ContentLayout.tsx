@@ -155,8 +155,10 @@ const Container = styled.div`
   position: relative;
   cursor: pointer;
   transition: all 0.2s linear;
-  :hover {
-    transform: scale(1.05);
+  @media screen and (min-width: 992px) {
+    :hover {
+      transform: scale(1.05);
+    }
   }
 `;
 
