@@ -4,14 +4,14 @@ const { generateProductData } = require("./generateProductData");
 const fs = require("fs");
 require("dotenv").config({ path: "../.env" });
 const keywords = [
-  "선풍기",
-  "무드등",
-  "섬유유연제",
-  "폼클렌징",
+  "비타민",
+  "유선이어폰",
+  "전기장판",
   "샴푸",
-  "트리트먼트",
   "바디워시",
-  "에어프라이어",
+  "트리트먼트",
+  "고대기",
+  "남자BB크림",
 ];
 const REQUEST_METHOD = "GET";
 const DOMAIN = "https://api-gateway.coupang.com";
