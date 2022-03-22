@@ -1,25 +1,26 @@
-AWSBook = require("./doc/AWS책.json");
-CBook = require("./doc/C언어책.json");
-ReactBook = require("./doc/리액트책.json");
-NodeBook = require("./doc/노드책.json");
-JSBook = require("./doc/자바스크립트책.json");
-JavaBook = require("./doc/자바책.json");
-TSBOOK = require("./doc/타입스크립트책.json");
-PythonBook = require("./doc/파이썬책.json");
+Shaver = require("./doc/면도기.json");
+shaverCream = require("./doc/면도크림.json");
+handSanitizer = require("./doc/손소독제.json");
+smartGloves = require("./doc/스마트장갑.json");
+
+externalHardDrive = require("./doc/외장하드.json");
+inductionPot = require("./doc/인덕션냄비.json");
+fryingPan = require("./doc/프라이팬.json");
+projector = require("./doc/프로젝터.json");
 currentData = require("./doc/currentData.json");
 
 fs = require("fs");
 
 const DataCompile = {
   ...currentData,
-  AWSBook: AWSBook,
-  CBook: CBook,
-  ReactBook: ReactBook,
-  NodeBook: NodeBook,
-  JSBook: JSBook,
-  JavaBook: JavaBook,
-  TSBOOK: TSBOOK,
-  PythonBook: PythonBook,
+  Shaver: Shaver,
+  shaverCream: shaverCream,
+  handSanitizer: handSanitizer,
+  smartGloves: smartGloves,
+  externalHardDrive: externalHardDrive,
+  inductionPot: inductionPot,
+  fryingPan: fryingPan,
+  projector: projector,
 };
 
 fs.writeFile(`./doc/currentData.json`, JSON.stringify(DataCompile, null, 4), (err) => {

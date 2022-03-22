@@ -7517,7 +7517,6 @@
       "isRocket": false,
       "isFreeShipping": true
     },
-
     {
       "productId": 80140502,
       "productName": "모던 자바스크립트 입문:기초 문법부터 ES6 정규 표현식 객체 지향 및 함수형 프로그래밍 HTTP, 길벗",
@@ -7540,7 +7539,6 @@
       "isRocket": true,
       "isFreeShipping": false
     },
-
     {
       "productId": 39090522,
       "productName": "자바스크립트 완벽 가이드, 인사이트",
@@ -7587,7 +7585,6 @@
       "isRocket": false,
       "isFreeShipping": true
     },
-
     {
       "productId": 108068422,
       "productName": "명품 JAVA Programming:귀로 배우는 자바가 아니라 눈으로 몸으로 배우는 자바강좌, 생능출판",
@@ -7610,7 +7607,6 @@
       "isRocket": true,
       "isFreeShipping": false
     },
-
     {
       "productId": 2130711,
       "productName": "이것이 자바다:신용권의 Java 프로그래밍 정복, 한빛미디어",
@@ -7657,7 +7653,6 @@
       "isRocket": true,
       "isFreeShipping": false
     },
-
     {
       "productId": 5509312037,
       "productName": "모던 자바스크립트 핵심 가이드:자바스크립트 기초부터 타입스크립트 ES2021까지 핵심만 쏙쏙, 한빛미디어",
@@ -7680,7 +7675,6 @@
       "isRocket": true,
       "isFreeShipping": false
     },
-
     {
       "productId": 4948145751,
       "productName": "[비제이퍼블릭]클론 코딩으로 시작하는 Next.js : Next.js와 타입스크립트로 숙박 공유 플랫폼 만들기, 비제이퍼블릭",
@@ -7738,7 +7732,6 @@
       "isRocket": true,
       "isFreeShipping": false
     },
-
     {
       "productId": 6072047485,
       "productName": "파이썬 프로그래밍:컴퓨터 비전공자를 위한 인공지능 활용의 시작, 부산대학교출판문화원",
@@ -7782,6 +7775,902 @@
       "rank": 7,
       "isRocket": false,
       "isFreeShipping": true
+    }
+  ],
+  "Shaver": [
+    {
+      "productId": 6081896830,
+      "productName": "와이즐리 스타터 면도기 세트 PRO, 면도핸들 + 면도날 + 체험용 면도날, 1세트",
+      "productPrice": 8900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2021/09/16/10/7/65c06177-2e19-4cb0-9c8e-c17b3bdfe0ae.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6081896830&itemId=11278986011&vendorItemId=78555838987&traceid=V0-153-7c0b7d2366db2b22",
+      "keyword": "면도기",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 63313651,
+      "productName": "도루코 페이스 5 면도기 + 면도날 10p 세트, 1세트",
+      "productPrice": 21900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/12805276024494718-b20f5a23-a1bc-4ccf-8e87-cabf08096a01.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=63313651&itemId=215649997&vendorItemId=3519354689&traceid=V0-153-26071435f4f9bf55",
+      "keyword": "면도기",
+      "rank": 2,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6173307349,
+      "productName": "질레트 프로쉴드 옐로우 매뉴얼 면도기 핸들 + 면도날 12p, 1세트",
+      "productPrice": 56780,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/bnaiadnz/98005a7bfb2748d387952424acb1e3b0.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6173307349&itemId=12065092307&vendorItemId=79337149629&traceid=V0-153-1d31b91b6f8e63de",
+      "keyword": "면도기",
+      "rank": 3,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6174342419,
+      "productName": "질레트 프로글라이드 매뉴얼 면도기 + 여분날, 1세트",
+      "productPrice": 11570,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/4xlbyxkb/e621f81fabe64b5fb61aedfb6f83d94c.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6174342419&itemId=12074789705&vendorItemId=79346755280&traceid=V0-153-1731895111c513da",
+      "keyword": "면도기",
+      "rank": 4,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 5393492256,
+      "productName": "토트넘 홋스퍼 전기 면도기 + 스마트백팩 + LED텀블러 + 쇼핑백",
+      "productPrice": 59000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/4986/1ef3cffd0ad3d8e61266c71bc5a37d370c5ece2a02e7f06684e9d0b496ec.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=5393492256&itemId=8049552772&vendorItemId=75664440421&traceid=V0-153-564460cb7a861ab9",
+      "keyword": "면도기",
+      "rank": 5,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1940874881,
+      "productName": "티피오스 더맨 전기면도기 Second, 블랙",
+      "productPrice": 19800,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2020/07/27/15/6/4bd95112-8fbc-4da2-a8f7-e93ccaf5ee23.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1940874881&itemId=3295043299&vendorItemId=71281990336&traceid=V0-153-276d2dbcae6470db",
+      "keyword": "면도기",
+      "rank": 6,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6353122104,
+      "productName": "도루코 페이스7 2 프레쉬 면도기 본체 + 면도날 11p 세트, 면도기 + 면도날 11p, 1세트",
+      "productPrice": 29050,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/6220124031865-ebf1e469-3e64-4d52-a2f4-f6b3567055b7.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6353122104&itemId=13376407915&vendorItemId=5415895860&traceid=V0-153-0c023bac93825498",
+      "keyword": "면도기",
+      "rank": 7,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 5221877467,
+      "productName": "필립스 1000 시리즈 전기면도기, 블루 말리부, S1131/41",
+      "productPrice": 64310,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/dr4fppoa/2f7e7edecbcf4bb7962a7d4fa6eff324.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=5221877467&itemId=7328898437&vendorItemId=74620157016&traceid=V0-153-0f5644bd7498f63e",
+      "keyword": "면도기",
+      "rank": 8,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 2041166639,
+      "productName": "필립스 SkinIQ 7000 시리즈 전기면도기, S7782/65, 미드나잇 블루",
+      "productPrice": 168920,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/856503796875333-826c525d-12ea-4e37-8941-19b492a58002.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=2041166639&itemId=3470012257&vendorItemId=71456350565&traceid=V0-153-13f2586034c7a485",
+      "keyword": "면도기",
+      "rank": 9,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 18083053,
+      "productName": "BRAUN 시리즈3 전기면도기, 300s (5408), 블랙",
+      "productPrice": 33850,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/148778751820577-90cf0567-a3f2-45e5-a8ed-7dd5c8e117e4.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=18083053&itemId=72690793&vendorItemId=3118372409&traceid=V0-153-e8619d67dfff6166",
+      "keyword": "면도기",
+      "rank": 10,
+      "isRocket": true,
+      "isFreeShipping": false
+    }
+  ],
+  "shaverCream": [
+    {
+      "productId": 1295376901,
+      "productName": "니베아 맨 센서티브 쉐이빙 폼, 200ml, 2개",
+      "productPrice": 6280,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2018/10/22/3000945140/67ed2799-20a9-4190-94d3-3e9eb46df80f.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1295376901&itemId=93026123&vendorItemId=3000945140&traceid=V0-153-27c3addce61d06f2",
+      "keyword": "면도크림",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1295376901,
+      "productName": "니베아 맨 센서티브 쉐이빙 폼, 200ml, 3개",
+      "productPrice": 8700,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/c2ab/fec3fd03c4c0c9ebbfc1472d6152ea5b32184cf29794bea0f140f8d59e56.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1295376901&itemId=484924343&vendorItemId=5517972570&traceid=V0-153-27c3addce61d06f2",
+      "keyword": "면도크림",
+      "rank": 2,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 6271337701,
+      "productName": "니베아 맨 프레시킥 쉐이빙 폼, 200ml, 3개",
+      "productPrice": 11640,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/irtyllgc/b6572e2bb18c465280949f70babc7eb9.png",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6271337701&itemId=12826796519&vendorItemId=80092560781&traceid=V0-153-25bc1ac266949b35",
+      "keyword": "면도크림",
+      "rank": 3,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 31724403,
+      "productName": "질레트 포오미 센서티브 스킨 쉐이빙 폼, 175g, 3개",
+      "productPrice": 8100,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2016/07/15/3008652546/a77ca2cd-83da-4cf9-b7c9-91592f9c8a18.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=31724403&itemId=512543270&vendorItemId=3008652546&traceid=V0-153-b29ce0866fa968d8",
+      "keyword": "면도크림",
+      "rank": 4,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 5307842168,
+      "productName": "바버501 스무디 시카 쉐이빙부스터, 300ml, 1개",
+      "productPrice": 28900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2021/04/01/18/2/d786b3a1-8b28-43d3-be62-7fcb88ba049d.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=5307842168&itemId=7680009095&vendorItemId=74970316611&traceid=V0-153-22ea16bfc881a00b",
+      "keyword": "면도크림",
+      "rank": 5,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6094880396,
+      "productName": "레이지소사이어티 시카 쉐이빙젤 2.3 + 펌프, 1세트",
+      "productPrice": 9900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/7025700273652641-2f455b43-0cf0-4986-ab53-105a046ed11b.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6094880396&itemId=11385140230&vendorItemId=73436314686&traceid=V0-153-8aa05b0547662208",
+      "keyword": "면도크림",
+      "rank": 6,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 163711199,
+      "productName": "니베아 맨 딥 쉐이빙 폼, 200ml, 1개",
+      "productPrice": 2940,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2018/11/21/19/8/f8a74ed9-2023-49aa-a61d-e98942870abd.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=163711199&itemId=469737182&vendorItemId=4173165266&traceid=V0-153-0b10c6bb41bf74a5",
+      "keyword": "면도크림",
+      "rank": 7,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6095227632,
+      "productName": "맨즈랄라 클래식 디펜시브 쉐이빙 크림, 100g, 1개",
+      "productPrice": 12800,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/e3b7/4aeefc0c99d39132d9dd923a8c5aba11212f70f26330aafc961b58d3e670.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6095227632&itemId=11387360141&vendorItemId=78924107430&traceid=V0-153-c750ff5406aa7c15",
+      "keyword": "면도크림",
+      "rank": 8,
+      "isRocket": false,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6162560702,
+      "productName": "맨즈랄라 클래식 디펜시브 쉐이빙 크림 3개 - 비즈왁스 면도 크림",
+      "productPrice": 26800,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/6114/754e9878ea118e5c6ed81311c7b99b644a36472997551ab7246a04f34909.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6162560702&itemId=11968699597&vendorItemId=78663447910&traceid=V0-153-b5ab50e6418de29c",
+      "keyword": "면도크림",
+      "rank": 9,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 6162562305,
+      "productName": "맨즈랄라 클래식 디펜시브 쉐이빙 크림 - 비즈왁스 면도 크림, (기본 할인) 쉐이빙 크림 1개",
+      "productPrice": 12800,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/99e7/3738f8da54af34c108645d7f89fd5c71c7d5ce35e6f88ba8931e387a2ec6.png",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6162562305&itemId=11968707659&vendorItemId=78663512700&traceid=V0-153-1c02810c0e5b1fec",
+      "keyword": "면도크림",
+      "rank": 10,
+      "isRocket": false,
+      "isFreeShipping": true
+    }
+  ],
+  "handSanitizer": [
+    {
+      "productId": 6344219954,
+      "productName": "랩신 프레시 새니타이저 겔 에탄올 70% vol. 파우더리 허브향, 500ml, 2개",
+      "productPrice": 7500,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/14357077774053250-12ceca10-c570-4288-be18-8f5d0dc610c9.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6344219954&itemId=13322837216&vendorItemId=70281806424&traceid=V0-153-64cee928a5101848",
+      "keyword": "손소독제",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1241016784,
+      "productName": "네오메디컬 핸드클린 손소독제, 500ml, 12개",
+      "productPrice": 28270,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/c7aa/7f85d432ec5f6b3faed848f3238ef40a6a8f5f15342b0265deb140a95a0c.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1241016784&itemId=3976109373&vendorItemId=78401513008&traceid=V0-153-ca134d3d66fccd6e",
+      "keyword": "손소독제",
+      "rank": 2,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 5314986710,
+      "productName": "탐사 핸드 새니타이저 겔, 500ml, 2개입",
+      "productPrice": 7600,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/252157750495123-a3f4ff19-010d-4096-bf69-04e77cc30461.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=5314986710&itemId=7713562368&vendorItemId=75003769022&traceid=V0-153-b0c7b283a49ab92d",
+      "keyword": "손소독제",
+      "rank": 3,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1241016784,
+      "productName": "네오메디컬 핸드클린 손소독제, 500ml, 6개",
+      "productPrice": 16220,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/0781/e6acbf986026501e99fc02461f766f22c0affec6b37123249d1f10c35e88.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1241016784&itemId=3130209424&vendorItemId=78511176949&traceid=V0-153-ca134d3d66fccd6e",
+      "keyword": "손소독제",
+      "rank": 4,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 1298657462,
+      "productName": "동아제약 핸디 가드 손소독 겔, 500ml, 1개",
+      "productPrice": 3880,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2020/02/27/17/0/8c62719d-e41e-4a7d-a4ff-0f102b355ab8.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1298657462&itemId=2311633998&vendorItemId=70308404577&traceid=V0-153-dd5fa6d24843d8e6",
+      "keyword": "손소독제",
+      "rank": 5,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6235236416,
+      "productName": "[에탄올 70%] 닥터데디스 손소독제 500ml x 10개 묶음/ 의약외품/ FDA등록",
+      "productPrice": 35000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/dd29/753f6eb877573ab868913341e3ebd31edf1c8bcdb1657d32b50d6f474184.png",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6235236416&itemId=12553654338&vendorItemId=79821978819&traceid=V0-153-bbc9cbf61bbf711d",
+      "keyword": "손소독제",
+      "rank": 6,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 1241016784,
+      "productName": "네오메디컬 핸드클린 손소독제, 500ml, 3개",
+      "productPrice": 10090,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/2edd/9ac8b62c514763e77d33b4904e2596d87e79e2d91a0f31d8c31fa10954da.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1241016784&itemId=2922543868&vendorItemId=71393052939&traceid=V0-153-ca134d3d66fccd6e",
+      "keyword": "손소독제",
+      "rank": 7,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 1217614679,
+      "productName": "랩신 V3 새니타이저 겔 손소독제, 60ml, 4개",
+      "productPrice": 7280,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/882089264420905-ebaf62fc-5a8f-45ee-bd26-96dce6cce391.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1217614679&itemId=2207611096&vendorItemId=70205435498&traceid=V0-153-8a6a4e0da7788ccc",
+      "keyword": "손소독제",
+      "rank": 8,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 4550963115,
+      "productName": "미국 FDA승인 식약처 허가 에탄올 70% 손소독제 손세정제 500ml 20개 1박스",
+      "productPrice": 43900,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/6ce3/7b25e89b8b0335f2e2888e9499af0fb3c8ef015d414170ce89fa67df23da.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=4550963115&itemId=5524615022&vendorItemId=75696473625&traceid=V0-153-6b8ef154514b7bb1",
+      "keyword": "손소독제",
+      "rank": 9,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 5682864083,
+      "productName": "크리넥스 손소독 스프레이 알로에, 6개, 15ml",
+      "productPrice": 13550,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/19355782148652-fa86e49d-f591-4219-9aa0-b8c541e2d32b.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=5682864083&itemId=9390803976&vendorItemId=76675845370&traceid=V0-153-fefd74e58971de57",
+      "keyword": "손소독제",
+      "rank": 10,
+      "isRocket": true,
+      "isFreeShipping": false
+    }
+  ],
+  "smartGloves": [
+    {
+      "productId": 6162189055,
+      "productName": "로라랜드 남녀공용 터치 장갑 8컬러",
+      "productPrice": 8900,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/ece2/4d65baa737cd3d30c95a07d0e583c74db518aede4fff57ec6eb328c29206.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6162189055&itemId=11966434276&vendorItemId=79247601301&traceid=V0-153-2b2cd221d623c886",
+      "keyword": "스마트장갑",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6308011176,
+      "productName": "pkpj 스마트폰 터치 가능 따뜻한 곰돌이 속기모 데일리 울 니트 장갑 3color",
+      "productPrice": 12900,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/a293/456035c6c21cee83fde2c370cf52d8af89f5118ad25d8f8e3c7dc4d3bf9c.JPG",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6308011176&itemId=13077980739&vendorItemId=80339616577&traceid=V0-153-d95be8abb2355d57",
+      "keyword": "스마트장갑",
+      "rank": 2,
+      "isRocket": false,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6162189055,
+      "productName": "로라랜드 남녀공용 터치 장갑 8컬러",
+      "productPrice": 8900,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/ece2/4d65baa737cd3d30c95a07d0e583c74db518aede4fff57ec6eb328c29206.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6162189055&itemId=11966434276&vendorItemId=79247601301&traceid=V0-153-2b2cd221d623c886",
+      "keyword": "스마트장갑",
+      "rank": 3,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6252509742,
+      "productName": "오제로 겨울 장갑 방한 방수 스마트 터치 남녀공용",
+      "productPrice": 15900,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/1e92/548e40505ac15a3d88de2bd960a914b8d19c2d9bf506606a422a7fc96692.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6252509742&itemId=12682579212&vendorItemId=79964544617&traceid=V0-153-8b47fb3215fe9ecb",
+      "keyword": "스마트장갑",
+      "rank": 4,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 5471420527,
+      "productName": "자외선 차단 쿨 아이스 여성장갑 데일리 등산 운전 IP",
+      "productPrice": 6700,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/c186/aed74be0af7aa0f354145a7339b31f5d395f30712130c6c63d9413732875.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=5471420527&itemId=8408821829&vendorItemId=77211574156&traceid=V0-153-71064719a1327407",
+      "keyword": "스마트장갑",
+      "rank": 5,
+      "isRocket": false,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6127516594,
+      "productName": "HW-603 NBR장갑 10켤레",
+      "productPrice": 15000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/ded2/ae0f5e2df0854e13f5293f5de6bd639941324dcae31d51ae9718e51fdd2d.png",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6127516594&itemId=11660439201&vendorItemId=79747842053&traceid=V0-153-9e2ae80b2fdafd34",
+      "keyword": "스마트장갑",
+      "rank": 6,
+      "isRocket": false,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 154904483,
+      "productName": "에버라스트 스마트 터치 니트 장갑, 블랙",
+      "productPrice": 4610,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2018/12/19/4093357744/195b96d9-3949-4487-824e-08ebfd06831f.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=154904483&itemId=446562307&vendorItemId=4093357744&traceid=V0-153-0fa6d1229512318d",
+      "keyword": "스마트장갑",
+      "rank": 7,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 2239586074,
+      "productName": "맥시브 스마트터치 기모 방한장갑, 블랙",
+      "productPrice": 14900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2956842116936895-5e2437b8-7598-405a-8d43-5ba0899e59ad.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=2239586074&itemId=3825241934&vendorItemId=71810101953&traceid=V0-153-6bf70099db28a0b8",
+      "keyword": "스마트장갑",
+      "rank": 8,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 4806110953,
+      "productName": "스마트 방한장갑 등산장갑 자전거장갑 겨울장갑 축구, 단일",
+      "productPrice": 14500,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/b68f/a30cbb43f154e61b0eea04dd0ff534a1c744f689a9dbc3b7cd7cde83f0a7.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=4806110953&itemId=6176807429&vendorItemId=71797718943&traceid=V0-153-dd211f4fd5ae310a",
+      "keyword": "스마트장갑",
+      "rank": 9,
+      "isRocket": false,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 4806097336,
+      "productName": "스마트 방한장갑 등산장갑 자전거장갑 겨울장갑 축구, S사이즈",
+      "productPrice": 14500,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/b68f/a30cbb43f154e61b0eea04dd0ff534a1c744f689a9dbc3b7cd7cde83f0a7.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=4806097336&itemId=6176762328&vendorItemId=71797718908&traceid=V0-153-12e51d700bd6812b",
+      "keyword": "스마트장갑",
+      "rank": 10,
+      "isRocket": false,
+      "isFreeShipping": false
+    }
+  ],
+  "externalHardDrive": [
+    {
+      "productId": 6120297837,
+      "productName": "씨게이트 외장하드 익스펜션 + 파우치, 1024GB, 블랙",
+      "productPrice": 64900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/20675348598790-853d07f0-8df8-4127-8898-77338be4db59.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6120297837&itemId=11597010608&vendorItemId=3007282849&traceid=V0-153-eb388cc280077b23",
+      "keyword": "외장하드",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 14820708,
+      "productName": "삼성전자 외장하드 J3 + 파우치, 2048GB, 블랙",
+      "productPrice": 108600,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/16b4/3225015f2ee1943b463324aa522ad7682a20150d97700ea9a7a047206f5e.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=14820708&itemId=61155508&vendorItemId=80282839457&traceid=V0-153-4e912344143c1715",
+      "keyword": "외장하드",
+      "rank": 2,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 25271683,
+      "productName": "WD Elements Portable 휴대용 외장하드 + 파우치, 4096GB, 블랙",
+      "productPrice": 144000,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2019/02/21/3179136997/d77a3f7e-3a16-44f5-abe2-1cbc50ba0609.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=25271683&itemId=98239788&vendorItemId=3179136997&traceid=V0-153-e50cfd7555ad9a66",
+      "keyword": "외장하드",
+      "rank": 3,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 14820708,
+      "productName": "삼성전자 외장하드 J3 + 파우치, 1024GB, 블랙",
+      "productPrice": 76050,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2017/12/11/3095674283/d9ecc13b-aa47-4eda-aa1f-0fcaff1b47b7.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=14820708&itemId=61155494&vendorItemId=3095674283&traceid=V0-153-4e912344143c1715",
+      "keyword": "외장하드",
+      "rank": 4,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1238087073,
+      "productName": "WD My Passport 휴대용 외장하드 + 파우치, 2048GB, 블랙",
+      "productPrice": 99900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/22431600579509-f0540353-3a57-4eb2-bdeb-e1f3f4b8e264.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1238087073&itemId=98239733&vendorItemId=3179136946&traceid=V0-153-928925f554a08ae5",
+      "keyword": "외장하드",
+      "rank": 5,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 25271683,
+      "productName": "WD Elements Portable 휴대용 외장하드 + 파우치, 4096GB, 블랙",
+      "productPrice": 144000,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2019/02/21/3179136997/d77a3f7e-3a16-44f5-abe2-1cbc50ba0609.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=25271683&itemId=98239788&vendorItemId=3179136997&traceid=V0-153-e50cfd7555ad9a66",
+      "keyword": "외장하드",
+      "rank": 6,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6120297837,
+      "productName": "씨게이트 외장하드 익스펜션 + 파우치, 1024GB, 블랙",
+      "productPrice": 64900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/20675348598790-853d07f0-8df8-4127-8898-77338be4db59.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6120297837&itemId=11597010608&vendorItemId=3007282849&traceid=V0-153-eb388cc280077b23",
+      "keyword": "외장하드",
+      "rank": 7,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1168550,
+      "productName": "삼성전자 외장하드 J3 Portable, 1TB, 블랙",
+      "productPrice": 76050,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2019/02/27/3006743611/026e2010-01c7-47e2-b340-673f2ce1f7ef.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1168550&itemId=5040336&vendorItemId=3006743611&traceid=V0-153-3944e42457d7310e",
+      "keyword": "외장하드",
+      "rank": 8,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6221078288,
+      "productName": "씨게이트 ONE TOUCH 외장하드 + 파우치, 2048GB, Black",
+      "productPrice": 99900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/20672738279904-1b228e0a-cefb-4ed8-9855-a47e9d0bde9c.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6221078288&itemId=12451172088&vendorItemId=4686504333&traceid=V0-153-525219eab5d22316",
+      "keyword": "외장하드",
+      "rank": 9,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 14820708,
+      "productName": "삼성전자 외장하드 J3 + 파우치, 2048GB, 화이트",
+      "productPrice": 108050,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2018/07/19/3095674290/1bf7788d-17c0-4264-9045-9210d033faf0.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=14820708&itemId=61155513&vendorItemId=3095674313&traceid=V0-153-4e912344143c1715",
+      "keyword": "외장하드",
+      "rank": 10,
+      "isRocket": true,
+      "isFreeShipping": false
+    }
+  ],
+  "inductionPot": [
+    {
+      "productId": 4393734367,
+      "productName": "베로나 IH 멀티플렉스 팬, 20cm, 크림아이보리",
+      "productPrice": 19900,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/71naqc57/9efc6013b3ee4012bc364a33d991f411.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=4393734367&itemId=5209920602&vendorItemId=72519053638&traceid=V0-153-6fc7376bf453b139",
+      "keyword": "인덕션냄비",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 2297210741,
+      "productName": "해피램 인덕션 냄비 + 후라이팬 세트 16cm, 핑크, 냄비 + 후라이팬 + 뚜껑",
+      "productPrice": 32980,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2020/10/26/9/8/c9b2712d-7a8d-43f6-a677-3d09d681c5c3.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=2297210741&itemId=3957236526&vendorItemId=71941649964&traceid=V0-153-edcc7187dd000ab7",
+      "keyword": "인덕션냄비",
+      "rank": 2,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6215373307,
+      "productName": "디토 매직홀더 국산 통주물 모든 열원 및 IH 인덕션용 후라이팬 냄비 세트 분리형 손잡이",
+      "productPrice": 89000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/94a9/4d509281845538ffe0ad6995d451063a1ed85afee9f0e0323a4dcb3ed1eb.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6215373307&itemId=12410088032&vendorItemId=79679518745&traceid=V0-153-424adb8f1d790096",
+      "keyword": "인덕션냄비",
+      "rank": 3,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 1685070381,
+      "productName": "키친플라워 쿠킨 IH 인덕션 그린우드 프라이팬 냄비 세트, 혼합색상, 5종",
+      "productPrice": 75800,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2020/06/09/16/6/3105ec38-f53c-472a-8817-72840f7ab57a.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1685070381&itemId=2870122833&vendorItemId=70859334006&traceid=V0-153-cbdb6ada2d7c30e7",
+      "keyword": "인덕션냄비",
+      "rank": 4,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6330942729,
+      "productName": "퀸센스 베로나 아이보리 쿡웨어 멀티핸들 냄비 프라이팬 세트, 5종세트(멀티핸들+냄비2종+프라이팬26+유리뚜껑)",
+      "productPrice": 68000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/c7a8/1ff5e9468d5902d420a5b6d957655d9aa960c8d262bff4ec438178273b09.JPG",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6330942729&itemId=13238325185&vendorItemId=80496367955&traceid=V0-153-d68d10707db95803",
+      "keyword": "인덕션냄비",
+      "rank": 5,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 6113868181,
+      "productName": "인덕션패드 보호매트 냄비받침 열전도율이좋은 스크래치방지, 핑크3P",
+      "productPrice": 25900,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/952f/a2021655279e1c3cfd6324261e23527e811a82a4bfe44095213d1694771f.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6113868181&itemId=11614838144&vendorItemId=78815810227&traceid=V0-153-3e8d59369753e03a",
+      "keyword": "인덕션냄비",
+      "rank": 6,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 4393734367,
+      "productName": "베로나 IH 멀티플렉스 팬, 20cm, 시크릿블랙",
+      "productPrice": 19900,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/2of2jq9n/f63fa372015242379998dcecdd0d6c61.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=4393734367&itemId=5209920606&vendorItemId=72519053651&traceid=V0-153-6fc7376bf453b139",
+      "keyword": "인덕션냄비",
+      "rank": 7,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1738842120,
+      "productName": "키친플라워 쿠킨 IH인덕션 칼라냄비 편수, 18cm, 혼합색상",
+      "productPrice": 10830,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2020/06/23/15/0/fe389096-708a-4ee1-9dd5-3b0e855aeeaf.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1738842120&itemId=2960392710&vendorItemId=70948865582&traceid=V0-153-631b4ae07662cb23",
+      "keyword": "인덕션냄비",
+      "rank": 8,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 2285067153,
+      "productName": "[드림픽] 슬기로운 주방템 인덕션보호매트 3color, 크리미핑크3P",
+      "productPrice": 25900,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/e404/3c0e367f4a79c006199e48be93cf1fd042ef72d3d86a1d06204cca5da585.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=2285067153&itemId=3927610061&vendorItemId=71911827373&traceid=V0-153-a0bffa0f786d7337",
+      "keyword": "인덕션냄비",
+      "rank": 9,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 2297210741,
+      "productName": "해피램 인덕션 냄비 + 후라이팬 세트 16cm, 아이보리, 냄비 + 후라이팬 + 뚜껑",
+      "productPrice": 32980,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2021/10/05/13/8/97b3517a-8136-4c0b-b8ec-841f65d3a59d.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=2297210741&itemId=11489786482&vendorItemId=78765090760&traceid=V0-153-edcc7187dd000ab7",
+      "keyword": "인덕션냄비",
+      "rank": 10,
+      "isRocket": true,
+      "isFreeShipping": false
+    }
+  ],
+  "fryingPan": [
+    {
+      "productId": 5428206617,
+      "productName": "락앤락 쿡플러스 하드앤라이트 프라이팬, 28cm, 1개",
+      "productPrice": 16900,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/910d/d4e4d78dca84f5814d2c9eacc23b10f5f0c30f03769ac616c19c35c9086d.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=5428206617&itemId=8219121353&vendorItemId=3000018278&traceid=V0-153-0abac2969462c2c3",
+      "keyword": "프라이팬",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6159044669,
+      "productName": "웰메이드 테라 세라믹 IH 인덕션 스테이크팬, 1개, 28cm",
+      "productPrice": 23900,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/rczzwgwt/74601ed02d884dc78e6473e7445a325b.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6159044669&itemId=11940321660&vendorItemId=79213016709&traceid=V0-153-65ef2ab829debb12",
+      "keyword": "프라이팬",
+      "rank": 2,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1419414761,
+      "productName": "코멧 키친 티타늄코팅 프라이팬, 28cm, 1개",
+      "productPrice": 14920,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/517625530368447-19024890-d0c1-40b0-919f-8f257d50f130.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1419414761&itemId=2457160694&vendorItemId=70450694245&traceid=V0-153-33eefae1d04913ef",
+      "keyword": "프라이팬",
+      "rank": 3,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 5399374463,
+      "productName": "올인원 필수팬 IH 인덕션 세라믹 냄비 웍 프라이팬 모든 요리 하나로 올인원 팬, 올인원 필수팬 20cm",
+      "productPrice": 24900,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/b83a/98c15c19d544a281b08fcc25e5dd4d4e13afb67ef28444ed40dd58a46549.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=5399374463&itemId=8073694490&vendorItemId=75362073920&traceid=V0-153-1e1bc0715ec0a02d",
+      "keyword": "프라이팬",
+      "rank": 4,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 6275153902,
+      "productName": "테팔 뉴 컴포트그립 후라이팬 궁중팬 웍 (옵션), 07-웍팬 28cm",
+      "productPrice": 37160,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/2c94/330ac425e26d1f1aa1c4facb77c29a25e3368e9d691b7a8a524844ad9998.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6275153902&itemId=12854212462&vendorItemId=80119622120&traceid=V0-153-d8a9f2b9c115b351",
+      "keyword": "프라이팬",
+      "rank": 5,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 5428206617,
+      "productName": "락앤락 쿡플러스 하드앤라이트 프라이팬, 24cm, 1개",
+      "productPrice": 13540,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2018/11/01/3000018276/cca9bef5-cfd4-4883-84d8-54efcdfe1d76.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=5428206617&itemId=8219188627&vendorItemId=3000018276&traceid=V0-153-0abac2969462c2c3",
+      "keyword": "프라이팬",
+      "rank": 6,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6333380862,
+      "productName": "키친아트 본 우드 파스텔민트 다이아 프라이팬, 28cm, 1개",
+      "productPrice": 11900,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/4kxdypu3/be9e50a352eb48db8774d73652b60771.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6333380862&itemId=13253484121&vendorItemId=80511304762&traceid=V0-153-3946d79ac6167b1e",
+      "keyword": "프라이팬",
+      "rank": 7,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 2022765945,
+      "productName": "킴스쿡 이지쿡 에코 20cm 후라이팬 데일리사이즈 에그팬 1인가구 인덕션겸용",
+      "productPrice": 8500,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/8c1f/2dcb7ceee4a10047377aea8a082155cb437b54abc399fbfe381974360e32.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=2022765945&itemId=3440648501&vendorItemId=71427108240&traceid=V0-153-3eb1f025d62c3f20",
+      "keyword": "프라이팬",
+      "rank": 8,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 358806,
+      "productName": "키친아트 다이아몬드 프라이팬, 28cm, 1개",
+      "productPrice": 11900,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2019/03/08/3000774986/2067ab58-adc4-4de1-b9d8-ba110ec26083.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=358806&itemId=887888&vendorItemId=3000774986&traceid=V0-153-ba9369813dc385e2",
+      "keyword": "프라이팬",
+      "rank": 9,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 2057025326,
+      "productName": "베로나 항균코팅 프라이팬 3종 세트, 블라썸 핑크, 프라이팬 20cm + 28cm + 궁중팬 28cm",
+      "productPrice": 29900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2020/08/31/22/5/da38b5c2-0164-460b-aea7-5036bc8122e6.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=2057025326&itemId=3496555911&vendorItemId=71482783803&traceid=V0-153-b8c20112cb0c3d80",
+      "keyword": "프라이팬",
+      "rank": 10,
+      "isRocket": true,
+      "isFreeShipping": false
+    }
+  ],
+  "projector": [
+    {
+      "productId": 263214217,
+      "productName": "LG전자 빔프로젝터 HU85LA",
+      "productPrice": 4990000,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2019/07/18/0/1/37eab98c-b872-4ec9-a29f-775b831a7cc2.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=263214217&itemId=824747566&vendorItemId=71979525751&traceid=V0-153-7a591deb0f56c72c",
+      "keyword": "프로젝터",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6258632159,
+      "productName": "EKASN 빔프로젝터 4K 8000루멘 600W +안드로이드 9.0 시스템+NETFLIX/YOUTUBE 시청 지원, E450",
+      "productPrice": 169000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/d320/31b130b41d560e3eb73973e14928b3c020daa0d88d37344829059c5453b2.jpeg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6258632159&itemId=12729833051&vendorItemId=80356926818&traceid=V0-153-c7ad93eb4d02940a",
+      "keyword": "프로젝터",
+      "rank": 2,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 6016946572,
+      "productName": "EKASN AK-9 무선미러링 빔프로젝터 1080P Full HD 6000루멘 1500밝기",
+      "productPrice": 109000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/adf0/63177a489a14679daf9db6f20f4604db6323b96487f899666b9c54f87ca6.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6016946572&itemId=10930631381&vendorItemId=79813693476&traceid=V0-153-8831ca87984dcb20",
+      "keyword": "프로젝터",
+      "rank": 3,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 4355492096,
+      "productName": "조아빔 무선 미러링 HD급 고해상도 LED 빔프로젝터 JD-720H",
+      "productPrice": 177800,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/690411752761374-129042b8-feaf-4bea-a74c-4bf75b8da666.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=4355492096&itemId=5115771848&vendorItemId=72425277470&traceid=V0-153-f0ce21627a13fbee",
+      "keyword": "프로젝터",
+      "rank": 4,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6348877645,
+      "productName": "LG전자 시네빔 빔프로젝터 빔프로젝트, HU70LA",
+      "productPrice": 1690000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/5928/4d969eba1de157539b212ac4df7b2f8fa0868774aca7de4522d8b181ebb8.jpeg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6348877645&itemId=13350776208&vendorItemId=80605896028&traceid=V0-153-09b7d4a1bfb0b035",
+      "keyword": "프로젝터",
+      "rank": 5,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 6081032478,
+      "productName": "빔스토리 애니빔 미니 빔프로젝터 용 미니빔 넷플릭스 빔프로젝트 안드로이드 10.0",
+      "productPrice": 295000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/6df5/d3a8115c3242bc44f6061b5d425d88b3357ed590b8630d9f372732042ae2.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=6081032478&itemId=11272881703&vendorItemId=78549770030&traceid=V0-153-cd855b5348bd29b5",
+      "keyword": "프로젝터",
+      "rank": 6,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 4623547457,
+      "productName": "Coms LED 미니 빔프로젝터 1500루멘 화이트 RE342S",
+      "productPrice": 94800,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2019/11/05/13/7/6e44c606-c3ff-4ab4-9ac7-c25f7f9d33c4.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=4623547457&itemId=5734075236&vendorItemId=5557044286&traceid=V0-153-350de9c201aedc8f",
+      "keyword": "프로젝터",
+      "rank": 7,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1173500388,
+      "productName": "씨앤케이 미니 빔프로젝터, RnK72",
+      "productPrice": 116760,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2020/01/13/17/5/b4e8bd87-3dd8-443a-80d3-876f2e421c8d.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=1173500388&itemId=2151804731&vendorItemId=70150101582&traceid=V0-153-2c631679f803e567",
+      "keyword": "프로젝터",
+      "rank": 8,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 4355492096,
+      "productName": "조아빔 무선 미러링 HD급 고해상도 LED 빔프로젝터 JD-720H",
+      "productPrice": 177800,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/690411752761374-129042b8-feaf-4bea-a74c-4bf75b8da666.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=4355492096&itemId=5115771848&vendorItemId=72425277470&traceid=V0-153-f0ce21627a13fbee",
+      "keyword": "프로젝터",
+      "rank": 9,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 4523294256,
+      "productName": "LG전자 시네빔 빔프로젝터 PF50KA",
+      "productPrice": 679000,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2018/06/22/3586151343/ade1dcd5-2e38-46ed-9e1b-9eb3d31497f4.jpg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF8104485&subid=eungwang1203&pageKey=4523294256&itemId=5455935704&vendorItemId=3596203838&traceid=V0-153-ba56993a702244ff",
+      "keyword": "프로젝터",
+      "rank": 10,
+      "isRocket": true,
+      "isFreeShipping": false
     }
   ]
 }
