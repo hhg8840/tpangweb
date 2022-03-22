@@ -4,14 +4,14 @@ const { generateProductData } = require("./generateProductData");
 const fs = require("fs");
 require("dotenv").config({ path: "../.env" });
 const keywords = [
-  "손소독제",
-  "스마트장갑",
-  "프라이팬",
-  "인덕션냄비",
+  "남자가죽장갑",
+  "여자가죽장갑",
+  "물안경",
+  "요가매트",
   "프로젝터",
-  "면도기",
-  "면도크림",
-  "외장하드",
+  "마사지볼",
+  "남자츄리닝바지",
+  "여자츄리닝바지",
 ];
 const REQUEST_METHOD = "GET";
 const DOMAIN = "https://api-gateway.coupang.com";
