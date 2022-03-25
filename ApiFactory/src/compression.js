@@ -1,26 +1,23 @@
-Shaver = require("./doc/면도기.json");
-shaverCream = require("./doc/면도크림.json");
-handSanitizer = require("./doc/손소독제.json");
-smartGloves = require("./doc/스마트장갑.json");
-
-externalHardDrive = require("./doc/외장하드.json");
-inductionPot = require("./doc/인덕션냄비.json");
-fryingPan = require("./doc/프라이팬.json");
-projector = require("./doc/프로젝터.json");
+MenLeatherGloves = require("./doc/남자가죽장갑.json");
+MenSweatPants = require("./doc/남자츄리닝바지.json");
+massageBall = require("./doc/마사지볼.json");
+goggles = require("./doc/물안경.json");
+WomenLeatherGloves = require("./doc/여자가죽장갑.json");
+WomenSweatPants = require("./doc/여자츄리닝바지.json");
+yogaMat = require("./doc/요가매트.json");
 currentData = require("./doc/currentData.json");
 
 fs = require("fs");
 
 const DataCompile = {
   ...currentData,
-  Shaver: Shaver,
-  shaverCream: shaverCream,
-  handSanitizer: handSanitizer,
-  smartGloves: smartGloves,
-  externalHardDrive: externalHardDrive,
-  inductionPot: inductionPot,
-  fryingPan: fryingPan,
-  projector: projector,
+  MenLeatherGloves: MenLeatherGloves,
+  MenSweatPants: MenSweatPants,
+  massageBall: massageBall,
+  goggles: goggles,
+  WomenLeatherGloves: WomenLeatherGloves,
+  WomenSweatPants: WomenSweatPants,
+  yogaMat: yogaMat,
 };
 
 fs.writeFile(`./doc/currentData.json`, JSON.stringify(DataCompile, null, 4), (err) => {
