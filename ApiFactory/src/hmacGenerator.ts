@@ -1,4 +1,3 @@
-import { Method } from 'axios';
 import crypto from 'crypto';
 import moment from 'moment';
 

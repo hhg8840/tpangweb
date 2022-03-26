@@ -1,15 +1,6 @@
 import { generateProductData } from './generateProductData';
 
-const keywords = [
-  '노트북거치대',
-  '노트북파우치',
-  '아이패드파우치',
-  '가습기',
-  '블루투스동글',
-  '셀카봉',
-  '셀카렌즈',
-  '남자레쉬가드',
-];
+const keywords = ['노트북거치대'];
 const REQUEST_METHOD = 'GET';
 const DOMAIN = 'https://api-gateway.coupang.com';
 
