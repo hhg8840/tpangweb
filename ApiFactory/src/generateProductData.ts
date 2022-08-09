@@ -9,8 +9,8 @@ export const generateProductData = async (
   DOMAIN: string,
   REQUEST_METHOD: Method
 ) => {
-  const ACCESS_KEY = process.env.ACCESS_KEY;
-  const SECRET_KEY = process.env.SECRET_KEY;
+  const ACCESS_KEY = '7f9f186f-ae6a-48fd-a3f2-2ec9372a7f06';
+  const SECRET_KEY = '797423a893d5281f5e1ef957821913813e40cfa5';
   console.log(ACCESS_KEY + 'test');
   let authorization;
   if (SECRET_KEY && ACCESS_KEY) {

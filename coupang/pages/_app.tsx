@@ -13,7 +13,7 @@ declare global {
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    window.Kakao.init(process.env.NEXT_PUBLIC_KAKAO_API_KEY);
+    window.Kakao.init('165163d956f3dc6ad7639f6592e9c37a');
   }, []);
   return (
     <div>
