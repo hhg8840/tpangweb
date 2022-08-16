@@ -93,5 +93,8 @@ export const menuThree = (
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/womanBracelet`}>여자팔찌</Link>
     </Menu.Item>
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/electricGuitar`}>일렉트릭기타</Link>
+    </Menu.Item>
   </Menu>
 );

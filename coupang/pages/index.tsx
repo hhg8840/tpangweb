@@ -94,7 +94,7 @@ interface loading {
 }
 
 const StyledRow = styled(Row)<loading>`
-  margin-top: 20px;
+  margin-top: 30px;
   width: 100%;
   max-width: 960px;
   justify-content: center !important;

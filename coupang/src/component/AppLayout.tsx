@@ -40,13 +40,13 @@ const TestLayout: React.FunctionComponent<Props> = ({ children, keywords }) => {
       <Header>
         <Link href="/">
           <LogoWrapper>
-            <LogoImg src="/images/Logo.png" alt="" />
+            <LogoImg src="" alt="" />
           </LogoWrapper>
         </Link>
         {indexState && <SearchInput items={items} />}
       </Header>
       {children}
-      <Footer>Copyright © 2022 All Rights Reserved by Eungwang</Footer>
+      <Footer>Copyright © 2022 All Rights Reserved by cup.lkbizz.xyz</Footer>
       {scrollToTopBtnState && (
         <ScrollToTopBtn scrollToTopBtnState onClick={scrollToTOP} ref={scrollBtnRef}>
           ▲

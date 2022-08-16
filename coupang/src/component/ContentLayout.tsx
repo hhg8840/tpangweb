@@ -1,90 +1,85 @@
-import { IData } from '@customTypes/allTypes';
-import { kakaoShare } from '@lib/kakaoShare';
+import {IData} from '@customTypes/allTypes';
+import {kakaoShare} from '@lib/kakaoShare';
 import Head from 'next/head';
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import shortid from 'shortid';
 import styled from 'styled-components';
 import AppLayout from './AppLayout';
-import { useRecoilState } from 'recoil';
-import { searchTextAtom } from 'src/Atoms/atom';
+import {useRecoilState} from 'recoil';
+import {searchTextAtom} from 'src/Atoms/atom';
 
-const ContentLayout = ({ data }: { data: IData[] }) => {
-  const today = new Date();
-  const year = today.getFullYear(); // 년도
-  const month = today.getMonth() + 1; // 월
-  const [searchText, setSearchText] = useRecoilState(searchTextAtom);
-  const [filteredData, setFilteredData] = useState<null | IData[]>(data);
+const ContentLayout = ({data}: { data: IData[] }) => {
+    const today = new Date();
+    const year = today.getFullYear(); // 년도
+    const month = today.getMonth() + 1; // 월
+    const [searchText, setSearchText] = useRecoilState(searchTextAtom);
+    const [filteredData, setFilteredData] = useState<null | IData[]>(data);
 
-  const url = 'https://gwang.xyz';
+    const url = 'https://cup.lkbizz.xyz';
 
-  return (
-    <AppLayoutWrapper>
-      <Head>
-        <title key={shortid.generate()}>{`${year}년${month}월 ${data[0].keyword} 추천순위 TOP10`}</title>
-        <meta
-          key={shortid.generate()}
-          name="description"
-          content={`${data[0].keyword} 추천순위 TOP10을 소개해드립니다.!!`}
-        />
-        <meta
-          name="keyword"
-          content="키보드추천, 노트북추천, 마우스추천, 액션캠추천, 모니터추천, 블루투스마우스 추천, 기계식키보드 추천, 목걸이추천, 남자지갑 추천,여자지갑추천, 통돌이 세탁기추천 "
-        />
-        <meta key={shortid.generate()} property="og:type" content="website" />
-        <meta key={shortid.generate()} property="og:url" content={url} />
-        <meta key={shortid.generate()} property="og:title" content={`${data[0].keyword} 추천순위 TOP10`} />
-        <meta key={shortid.generate()} property="og:image" content={data[0].productImage} />
-        <meta
-          key={shortid.generate()}
-          property="og:description"
-          content={`${data[0].keyword} 추천순위 TOP10을 소개해드립니다.`}
-        />
-        <meta
-          key={shortid.generate()}
-          property="og:site_name"
-          content="전자제품, 생황가전제품 등 필수아이템 추천순위 TOP10"
-        />
-        <meta key={shortid.generate()} property="og:locale" content="ko_KR" />
-      </Head>
-      <ContentLayoutWrapper>
-        <Title>{`${year}년${month}월`} </Title>
-        <Title>추천 인기 {data[0].keyword} TOP 10</Title>
+    return (
+        <AppLayoutWrapper>
+            <Head>
+                <title key={shortid.generate()}>{`${year}년${month}월 ${data[0].keyword} 추천순위 TOP10`}</title>
+                <meta
+                    key={shortid.generate()}
+                    name="description"
+                    content={`${data[0].keyword} 추천순위 TOP10을 소개해드립니다.!!`}
+                />
+                <meta
+                    name="keyword"
+                    content="키보드추천, 노트북추천, 마우스추천, 액션캠추천, 모니터추천, 블루투스마우스 추천, 기계식키보드 추천, 목걸이추천, 남자지갑 추천,여자지갑추천, 통돌이 세탁기추천 "
+                />
+                <meta key={shortid.generate()} property="og:type" content="website"/>
+                <meta key={shortid.generate()} property="og:url" content={url}/>
+                <meta key={shortid.generate()} property="og:title" content={`${data[0].keyword} 추천순위 TOP10`}/>
+                <meta key={shortid.generate()} property="og:image" content={data[0].productImage}/>
+                <meta
+                    key={shortid.generate()}
+                    property="og:description"
+                    content={`${data[0].keyword} 추천순위 TOP10을 소개해드립니다.`}
+                />
+                <meta
+                    key={shortid.generate()}
+                    property="og:site_name"
+                    content="전자제품, 생황가전제품 등 필수아이템 추천순위 TOP10"
+                />
+                <meta key={shortid.generate()} property="og:locale" content="ko_KR"/>
+            </Head>
+            <ContentLayoutWrapper>
+                <Title>{`${year}년${month}월`} </Title>
+                <Title>추천 인기 {data[0].keyword} TOP 10</Title>
+                <IframeWrapper>
+                    <iframe src="https://coupa.ng/cc13XI" width="100%" height="36" frameBorder="0" scrolling="no"
+                            referrerPolicy="unsafe-url"></iframe>
+                </IframeWrapper>
+                <ContentWrapper>
+                    {filteredData?.map((item) => (
+                        <Container key={shortid.generate()} onClick={() => window.open(item.productUrl)}>
+                            <RankWrapper>
+                                <Rank>{item.rank}</Rank>
+                            </RankWrapper>
+                            <ProductTitle>{item.productName}</ProductTitle>
+                            <ImageWrapper>
+                                <ProductImg src={item.productImage}/>
+                            </ImageWrapper>
+                            <Price>가격 : ₩{item.productPrice.toLocaleString()}</Price>
 
-          <IframeWrapper>
-            <iframe
-              src="https://coupa.ng/cc13XI"
-              width="100%"
-              height="36"
-              frameBorder="0"
-              scrolling="no"
-              referrerPolicy="unsafe-url"
-            ></iframe>
-          </IframeWrapper>
-        <ContentWrapper>
-          {filteredData?.map((item) => (
-            <Container key={shortid.generate()} onClick={() => window.open(item.productUrl)}>
-              <RankWrapper>
-                <Rank>{item.rank}</Rank>
-              </RankWrapper>
-              <ProductTitle>{item.productName}</ProductTitle>
-              <ImageWrapper>
-                <ProductImg src={item.productImage} />
-              </ImageWrapper>
-              <Price>가격 : ₩{item.productPrice.toLocaleString()}</Price>
-
-              <ButtonWrapper>
-                <LinkBox>상세정보 확인하기</LinkBox>
-                {/*<ShareImg onClick={() => kakaoShare(item)} src="/images/share.png" alt="" />*/}
-              </ButtonWrapper>
-            </Container>
-          ))}
-          <div>
-            ※ 이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
-          </div>
-        </ContentWrapper>
-      </ContentLayoutWrapper>
-    </AppLayoutWrapper>
-  );
+                            <ButtonWrapper>
+                                <LinkBox>상세정보 확인하기</LinkBox>
+                                {/*<ShareImg onClick={() => kakaoShare(item)} src="/images/share.png" alt="" />*/}
+                            </ButtonWrapper>
+                        </Container>
+                    ))}
+                    <Intro>
+                        <div>
+                            ※ 이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+                        </div>
+                    </Intro>
+                </ContentWrapper>
+            </ContentLayoutWrapper>
+        </AppLayoutWrapper>
+    );
 };
 
 export default ContentLayout;
