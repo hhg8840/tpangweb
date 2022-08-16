@@ -782,5 +782,117 @@
       "isRocket": false,
       "isFreeShipping": true
     }
+  ],
+"manDocBag": [
+    {
+      "productId": 5493877168,
+      "productName": "브론코지벤 사피아노 남성 서류가방",
+      "productPrice": 49000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/7db1/97878c0d05d68fda8c9e46bdaab0e090247717af0b631cc1bda7cd0a5cfc.jpg",
+      "productUrl": "https://link.coupang.com/a/vMY99",
+      "keyword": "남자서류가방",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 4713297474,
+      "productName": "애드에딧 포스트 서류가방",
+      "productPrice": 32900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/9785921389765398-8add30cc-6a76-4c49-ac31-d80435c00e8b.jpg",
+      "productUrl": "https://link.coupang.com/a/vMZab",
+      "keyword": "남자서류가방",
+      "rank": 2,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 4564069926,
+      "productName": "쌤소나이트레드 HARAM 서류가방",
+      "productPrice": 121760,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2020/01/31/16/6/4f1f2d97-68b8-48c9-8bcb-f6bb397cad0c.jpg",
+      "productUrl": "https://link.coupang.com/a/vMZac",
+      "keyword": "남자서류가방",
+      "rank": 3,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6522949215,
+      "productName": "누리앤코 남자 가죽 서류가방 브리프케이스 AMCSBC05",
+      "productPrice": 46800,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/1870/a0b71ae2b2b504520499153f6f0be16661e5cf1bdd8edb84b1eb809519fa.jpg",
+      "productUrl": "https://link.coupang.com/a/vMZad",
+      "keyword": "남자서류가방",
+      "rank": 4,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 5573325160,
+      "productName": "남성용 브리프케이스 서류가방 NO 75",
+      "productPrice": 43260,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2021/05/11/15/6/59333549-c700-42b3-8c3a-17dd7e63a6b1.jpg",
+      "productUrl": "https://link.coupang.com/a/vMZae",
+      "keyword": "남자서류가방",
+      "rank": 5,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 4625777005,
+      "productName": "뉴엔 남성용 서류가방 P70",
+      "productPrice": 26300,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/uuuu3hfl/3e46bfe11dae430197dc9c9a7e4b5ae5.jpg",
+      "productUrl": "https://link.coupang.com/a/vMZaf",
+      "keyword": "남자서류가방",
+      "rank": 6,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 4968649192,
+      "productName": "뉴엔 남성용 직장인 가죽 서류가방 P77",
+      "productPrice": 29490,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/npjapchc/cc01420491d44cc7bcc0181cff32db50.jpg",
+      "productUrl": "https://link.coupang.com/a/vMZag",
+      "keyword": "남자서류가방",
+      "rank": 7,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 5820515470,
+      "productName": "남자 직장인 비즈니스 서류가방 사무 업무용 노트북 회사원 출근 가방",
+      "productPrice": 20900,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/04aa/6f3781d96bed1ed3606bb900c3613648e79a3a3c8417ea49576bcb9c4b5e.jpeg",
+      "productUrl": "https://link.coupang.com/a/vMZai",
+      "keyword": "남자서류가방",
+      "rank": 8,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 1623985984,
+      "productName": "던롭 데니슨 비즈니스 서류가방 DBC400",
+      "productPrice": 58250,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/1990523650068488-4cc98f35-a923-46d9-bd78-8ed2c4b4c797.jpg",
+      "productUrl": "https://link.coupang.com/a/vMZak",
+      "keyword": "남자서류가방",
+      "rank": 9,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6610156830,
+      "productName": "포고미 커뮤트 비즈니스 가방",
+      "productPrice": 24040,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/lubjuppz/d9863a0b77df448e8abca878cde8f735.jpg",
+      "productUrl": "https://link.coupang.com/a/vMZal",
+      "keyword": "남자서류가방",
+      "rank": 10,
+      "isRocket": true,
+      "isFreeShipping": false
+    }
   ]
 }
