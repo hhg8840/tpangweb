@@ -8,12 +8,12 @@ import urllib
 import urllib.request
 
 now_path = os.path.dirname(os.path.realpath(__file__))
-# file = open(f'{now_path}/metadata/setting.json',
-#             'r', encoding='utf-8')
-# config_dict = json.load(file)
+file = open(f'{now_path}/setting.json',
+            'r', encoding='utf-8')
+config_dict = json.load(file)
 
-ACCESS_KEY = "7f9f186f-ae6a-48fd-a3f2-2ec9372a7f06"
-SECRET_KEY = "797423a893d5281f5e1ef957821913813e40cfa5"
+ACCESS_KEY = config_dict["CUPANG_ACCESS_KEY"]
+SECRET_KEY = config_dict["CUPANG_SECRET_KEY"]
 
 
 def generateHmac(method, url, api_secret_key, api_access_key):

@@ -3,14 +3,14 @@ import os
 import json
 import datetime
 now_path = os.path.dirname(os.path.abspath(__file__))
-# file = open(f'{now_path}/metadata/setting.json',
-#             'r', encoding='utf-8')
-# config_dict = json.load(file)
+file = open(f'{now_path}/setting.json',
+            'r', encoding='utf-8')
+config_dict = json.load(file)
 
 
 def main():
 
-    keyword = '웹캠'
+    keyword = '포터블모니터'
     files_Path = f"{now_path}/product_posts/"
 
     limit = 10
