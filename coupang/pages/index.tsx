@@ -57,7 +57,7 @@ const Home: NextPage = () => {
   return (
     <React.StrictMode>
       <Head>
-        <title>Sim's SaleShop - 생활가전제품 추천순위 TOP10</title>
+        <title>추천인기 TOP 10</title>
         <meta name="description" content="2022 가전제품, 생활필수품 등의 인기 추천 순위를 알려드립니다." />
         <meta
           name="keyword"
@@ -130,11 +130,11 @@ const Content = styled.div`
   font-size: 1.5rem;
   font-weight: 800;
   padding: 1.875rem;
-  background-color: #f9c51d;
+  background-color: #FF1E00;
   border-radius: 5px;
   color: white;
   cursor: pointer;
-  :hover {
+  /*:hover {
     background-color: #ffd600;
-  }
+  } */
 `;

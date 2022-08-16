@@ -48,19 +48,18 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
       </Head>
       <ContentLayoutWrapper>
         <Title>{`${year}년${month}월`} </Title>
-        <Title>{data[0].keyword} 인기순위 TOP10</Title>
-        <Intro>
-          {`안녕하세요. Sim's SaleShop 매니져 심랭킹입니다😊`}
-          <br />
-          {`오늘은 ${year}년 ${month}월에 가장 많이 팔린 ${data[0].keyword} `}
-          <br />
-          인기순위 TOP10에 대해 알아보겠습니다.
-          <br />
-          <div>
-            ※ 상세정보 및 후기 버튼을 눌러 상품의 자세한 정보 및 후기를 확인할 수 있습니다.
-            <br />※ 우측 공유하기 버튼을 눌러 마음에 드는 상품을 카카오톡으로 공유해보세요.
-          </div>
-        </Intro>
+        <Title>추천 인기 {data[0].keyword} TOP 10</Title>
+
+          <IframeWrapper>
+            <iframe
+              src="https://coupa.ng/cc13XI"
+              width="100%"
+              height="36"
+              frameBorder="0"
+              scrolling="no"
+              referrerPolicy="unsafe-url"
+            ></iframe>
+          </IframeWrapper>
         <ContentWrapper>
           {filteredData?.map((item) => (
             <Container key={shortid.generate()} onClick={() => window.open(item.productUrl)}>
@@ -74,23 +73,14 @@ const ContentLayout = ({ data }: { data: IData[] }) => {
               <Price>가격 : ₩{item.productPrice.toLocaleString()}</Price>
 
               <ButtonWrapper>
-                <LinkBox>상세정보 및 후기</LinkBox>
-
-                <ShareImg onClick={() => kakaoShare(item)} src="/images/share.png" alt="" />
+                <LinkBox>상세정보 확인하기</LinkBox>
+                {/*<ShareImg onClick={() => kakaoShare(item)} src="/images/share.png" alt="" />*/}
               </ButtonWrapper>
             </Container>
           ))}
-          <Intro>쿠팡에서 다른 상품도 한번 검색해보세요 😊</Intro>
-          <IframeWrapper>
-            <iframe
-              src="https://coupa.ng/cchmez"
-              width="100%"
-              height="36"
-              frameBorder="0"
-              scrolling="no"
-              referrerPolicy="unsafe-url"
-            ></iframe>
-          </IframeWrapper>
+          <div>
+            ※ 이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+          </div>
         </ContentWrapper>
       </ContentLayoutWrapper>
     </AppLayoutWrapper>
@@ -133,13 +123,13 @@ const IframeWrapper = styled.div`
 `;
 const Intro = styled.div`
   text-align: center;
-  color: white;
+  color: #D2302C;
   font-size: 1.3rem;
   margin-top: 40px;
   div {
     font-size: 1rem;
     margin-top: 30px;
-    color: #f1c74a;
+    color: #D2302C;
   }
 `;
 
@@ -194,7 +184,7 @@ const Title = styled.div`
   padding: 30px 50px 0px 50px;
   font-size: 3rem;
   font-weight: 1000;
-  color: white;
+  color: #D2302C;
   text-align: center;
 `;
 
@@ -203,7 +193,7 @@ const RankWrapper = styled.div`
   width: 6rem;
   height: 6rem;
   text-align: center;
-  background-color: #f9c51d;
+  background-color: #FF1E00;
   color: white;
   border-radius: 1000px;
   align-items: center;
@@ -217,9 +207,9 @@ const RankWrapper = styled.div`
 
 const LinkBox = styled.div`
   margin-top: 30px;
-  padding: 1.25rem 1.575rem;
-  background-color: #f9c51d;
-  width: 40%;
+  padding: 1rem 0.7rem;
+  background-color: #FF1E00;
+  width: 50%;
   border-radius: 10px;
   margin-bottom: 30px;
   color: white;
@@ -228,9 +218,9 @@ const LinkBox = styled.div`
   font-weight: 700;
   transition: all 0.2s linear;
   cursor: pointer;
-  :hover {
+  /* :hover {
     background-color: #ffd600;
-  }
+  } */
 `;
 const ButtonWrapper = styled.div`
   display: flex;
@@ -240,7 +230,7 @@ const ButtonWrapper = styled.div`
 `;
 
 const ShareImgWrapper = styled.div`
-  background-color: #f9c51d;
+  background-color: #FF1E00;
   padding: 20px;
   border-radius: 5px;
 `;
@@ -249,12 +239,12 @@ const ShareImg = styled.img`
   object-fit: contain;
   width: 4rem;
   height: 4rem;
-  background-color: #f9c51d;
+  background-color: #FF1E00;
   padding: 1rem;
   margin-left: 20px;
   border-radius: 10px;
-  :hover {
-    background-color: #ffd600;
-  }
+  /* :hover {
+     background-color: #ffd600;
+   }*/
   z-index: 500;
 `;

@@ -73,7 +73,7 @@ const LogoImg = styled.img`
 `;
 
 const Layout = styled.div`
-  background-color: #3e7e9c;
+  background-color: #F7F7F9;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,15 +103,13 @@ const ScrollToTopBtn = styled.div<IScrollToTopBtn>`
   padding: 10px 20px;
   transition-property: opacity;
   transition-duration: 1s;
-  background-color: #ffa500;
+  background-color: #D2302C;
   bottom: 15px;
   right: 15px;
   z-index: 119;
   color: white;
   cursor: pointer;
-  :hover {
-    background-color: #f5aa20;
-  }
+
   display: ${(props) => (props.scrollToTopBtnState ? 'block' : 'none')};
   opacity: ${(props) => (props.scrollToTopBtnState ? '1' : '0')};
 `;
