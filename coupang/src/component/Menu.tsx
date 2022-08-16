@@ -99,5 +99,8 @@ export const menuThree = (
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/manDocBag`}>남자서류가방</Link>
     </Menu.Item>
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/bluetoothHeadSet`}>무선해드셋</Link>
+    </Menu.Item>
   </Menu>
 );
