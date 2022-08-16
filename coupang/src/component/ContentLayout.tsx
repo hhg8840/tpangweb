@@ -47,7 +47,8 @@ const ContentLayout = ({data}: { data: IData[] }) => {
                 <meta key={shortid.generate()} property="og:locale" content="ko_KR"/>
             </Head>
             <ContentLayoutWrapper>
-                <Title>{`${year}년${month}월`} </Title>
+                <br/>
+                <Title>{`${year}년${month}월`}</Title>
                 <Title>추천 인기 {data[0].keyword} TOP 10</Title>
                 <IframeWrapper>
                     <iframe src="https://coupa.ng/cc13XI" width="100%" height="36" frameBorder="0" scrolling="no"
@@ -63,7 +64,7 @@ const ContentLayout = ({data}: { data: IData[] }) => {
                             <ImageWrapper>
                                 <ProductImg src={item.productImage}/>
                             </ImageWrapper>
-                            <Price>가격 : ₩{item.productPrice.toLocaleString()}</Price>
+                            {/*<Price>가격 : ₩{item.productPrice.toLocaleString()}</Price>*/}
 
                             <ButtonWrapper>
                                 <LinkBox>상세정보 확인하기</LinkBox>
@@ -166,6 +167,7 @@ const ImageWrapper = styled.div`
 `;
 const Price = styled.div`
   text-align: center;
+  text-decoration : line-through;
   width: 60%;
   font-weight: 600;
   font-size: 2rem;
