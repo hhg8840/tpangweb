@@ -10,7 +10,7 @@ config_dict = json.load(file)
 
 def main():
 
-    keyword = '포터블모니터'
+    keyword = '캡슐커피머신'
     files_Path = f"{now_path}/product_posts/"
 
     limit = 10

@@ -37,21 +37,6 @@ export const menuOne = (
 export const menuTwo = (
   <Menu>
     <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/washingMachine`}>통돌이세탁기</Link>
-    </Menu.Item>
-    <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/cleaner`}>청소기</Link>
-    </Menu.Item>
-    <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/gamingChair`}>게이밍의자</Link>
-    </Menu.Item>
-    <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/sandMaker`}>샌드메이커</Link>
-    </Menu.Item>
-    <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/footBat`}>족욕기</Link>
-    </Menu.Item>
-    <Menu.Item key={shortid.generate()}>
       <Link href={`/post/capsuleCoffee`}>캡슐커피머신</Link>
     </Menu.Item>
     <Menu.Item key={shortid.generate()}>
@@ -100,7 +85,7 @@ export const menuThree = (
       <Link href={`/post/manDocBag`}>남자서류가방</Link>
     </Menu.Item>
     <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/bluetoothHeadSet`}>무선해드셋</Link>
+      <Link href={`/post/bluetoothHeadSet`}>무선헤드셋</Link>
     </Menu.Item>
   </Menu>
 );
