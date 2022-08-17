@@ -1454,5 +1454,453 @@
       "isRocket": true,
       "isFreeShipping": false
     }
+  ],
+  "coffeeGrinder": [
+    {
+      "productId": 1748743100,
+      "productName": "바리스타 수동 원두 커피 그라인더 BM4, 혼합색상, 1개",
+      "productPrice": 23500,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2020/06/26/15/7/f8892963-531c-4bc6-8f77-1838a0bc815e.jpg",
+      "productUrl": "https://link.coupang.com/a/vVWWW",
+      "keyword": "커피그라인더",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 19320577,
+      "productName": "위즈웰 커피 그라인더 WSG-9100, 실버, 1개",
+      "productPrice": 32900,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2018/10/23/3130753690/d52de1af-4720-462d-b88d-39b02061d9bd.jpg",
+      "productUrl": "https://link.coupang.com/a/vVWWX",
+      "keyword": "커피그라인더",
+      "rank": 2,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 198258242,
+      "productName": "플랜잇 원두커피 분쇄기, PGR-001B",
+      "productPrice": 20140,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2019/03/15/12/3/771ce3f3-928c-43ac-a304-311d8fe23fb3.jpg",
+      "productUrl": "https://link.coupang.com/a/vVWWY",
+      "keyword": "커피그라인더",
+      "rank": 3,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6174552854,
+      "productName": "코멧 전동 커피 그라인더, KWG-100A",
+      "productPrice": 25900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2405658364393658-35c98b88-a10b-49a2-8273-5cf64d98abb7.jpg",
+      "productUrl": "https://link.coupang.com/a/vVWWZ",
+      "keyword": "커피그라인더",
+      "rank": 4,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1679834,
+      "productName": "쿠진아트 수프림 오토매틱 커피 그라인더, DBM-8KR",
+      "productPrice": 67000,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/502588702119644-0e039d26-8158-4205-8822-a3aa4c0e95d7.jpg",
+      "productUrl": "https://link.coupang.com/a/vVWW0",
+      "keyword": "커피그라인더",
+      "rank": 5,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6512060634,
+      "productName": "맥널티커피 31단계 조절 프로 전동 커피 분쇄기, MCG-0505S",
+      "productPrice": 109000,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/re7b7qha/586315f5b1c34e67b20436867bb78d54.jpg",
+      "productUrl": "https://link.coupang.com/a/vVWW1",
+      "keyword": "커피그라인더",
+      "rank": 6,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 82215296,
+      "productName": "카페리아 세라믹날 커피밀 돔형, 단일 색상, 1개",
+      "productPrice": 23570,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2018/10/31/3172818750/144952c3-cbdc-457e-86ba-1e70ba370f7f.jpg",
+      "productUrl": "https://link.coupang.com/a/vVWW2",
+      "keyword": "커피그라인더",
+      "rank": 7,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6550112968,
+      "productName": "웨어드 수동 원두 커피 그라인더 핸드밀",
+      "productPrice": 24800,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/98ea/f81b34fd5656740d23c42d1e03a6ce16f533038003ff19daf2598cd4e2d5.jpg",
+      "productUrl": "https://link.coupang.com/a/vVWW3",
+      "keyword": "커피그라인더",
+      "rank": 8,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6352791866,
+      "productName": "코맥 스틸 플랫 버 ME4 전동 커피그라인더, CG-1501PB",
+      "productPrice": 45000,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2022/02/21/11/8/adb0ce10-188f-4c94-93fe-8c0e0a91db87.jpg",
+      "productUrl": "https://link.coupang.com/a/vVWW4",
+      "keyword": "커피그라인더",
+      "rank": 9,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6550112968,
+      "productName": "웨어드 수동 원두 커피 그라인더 핸드밀",
+      "productPrice": 24800,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/5c82/bdf72b9cecbbc9358a20ce194e59a14622400e2f75d9f8dd596360251b37.jpg",
+      "productUrl": "https://link.coupang.com/a/vVWW5",
+      "keyword": "커피그라인더",
+      "rank": 10,
+      "isRocket": true,
+      "isFreeShipping": false
+    }
+  ],
+  "carCleaner": [
+    {
+      "productId": 5033702070,
+      "productName": "[쿠팡수입] 샤오미 미지아 차량용 핸디 청소기, SSXCQ01XY, 화이트",
+      "productPrice": 42870,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2544933497895855-312ccbc1-0643-4e95-a3fd-413cddc528fb.jpg",
+      "productUrl": "https://link.coupang.com/a/vVW3S",
+      "keyword": "차량용청소기",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 2123858216,
+      "productName": "캐치웰 텀블러 다용도 무선 핸디청소기 THC1000, 스톤화이트, THC1000",
+      "productPrice": 39900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/1653684751259185-c8cc8d01-cf8b-409e-b41c-7774b14e2dd5.jpg",
+      "productUrl": "https://link.coupang.com/a/vVW3T",
+      "keyword": "차량용청소기",
+      "rank": 2,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6582616801,
+      "productName": "Chanfro 초강력 차량용 청소기 자동차 무선 진공 청소, 블랙",
+      "productPrice": 27990,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/6f31/5390645b236d913b3ee9064867c053fb7490451bddeb93f60944ee251526.jpg",
+      "productUrl": "https://link.coupang.com/a/vVW3U",
+      "keyword": "차량용청소기",
+      "rank": 3,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 4569688501,
+      "productName": "트리플블랙 휴대용 무선 청소기, Z5, 핑크",
+      "productPrice": 34900,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/75b1/450f08227f28d69733de123efe61ab1a154bb2664f8cabe72437726a5915.jpg",
+      "productUrl": "https://link.coupang.com/a/vVW3V",
+      "keyword": "차량용청소기",
+      "rank": 4,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1465183171,
+      "productName": "[쿠팡수입] 시프이컴 핸디형 차량용 무선 청소기, DK-X112",
+      "productPrice": 46900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/245216892186794-75f3eaef-aba2-45eb-a2ea-29bcb3829838.jpg",
+      "productUrl": "https://link.coupang.com/a/vVW3W",
+      "keyword": "차량용청소기",
+      "rank": 5,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 2123858216,
+      "productName": "캐치웰 텀블러 다용도 무선 핸디청소기 THC1000, 엣지블랙, THC1000",
+      "productPrice": 39900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2081347848315079-15f7ee13-9d53-4756-9c40-1a8530350e5e.jpg",
+      "productUrl": "https://link.coupang.com/a/vVW3X",
+      "keyword": "차량용청소기",
+      "rank": 6,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6096159407,
+      "productName": "블랙앤데커 차량용 청소기, WD1210AV",
+      "productPrice": 36560,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/c1nhz9iq/4937d06721944b70b58d1f1bf45f71dd.jpg",
+      "productUrl": "https://link.coupang.com/a/vVW3Y",
+      "keyword": "차량용청소기",
+      "rank": 7,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 4672662016,
+      "productName": "홈플래닛 휴대용 미니핸디 무선청소기 가정/차량용 (aka 머리카락 킬러), 화이트, HVC02",
+      "productPrice": 24800,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/86705751795470-628705cd-b604-43b9-a26b-bb6529bbc1fb.jpg",
+      "productUrl": "https://link.coupang.com/a/vVW3Z",
+      "keyword": "차량용청소기",
+      "rank": 8,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 4569688501,
+      "productName": "트리플블랙 휴대용 무선 청소기, Z5, 블랙",
+      "productPrice": 34900,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/428a/9af4de981f0cedc80db7c14b54ce733020e4ad6513c309407f1f5374ea55.jpg",
+      "productUrl": "https://link.coupang.com/a/vVW30",
+      "keyword": "차량용청소기",
+      "rank": 9,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6610647424,
+      "productName": "모런 싸이클론 차량용 미니 무선청소기 v5 + 파우치 + 인테리어 글러브 + 타월 세트, 메탈그레이(청소기), MORUN-V5(청소기)",
+      "productPrice": 99000,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/3120828795999937-f197235f-80de-4826-9491-936833e14f7c.jpg",
+      "productUrl": "https://link.coupang.com/a/vVW31",
+      "keyword": "차량용청소기",
+      "rank": 10,
+      "isRocket": true,
+      "isFreeShipping": false
+    }
+  ],
+    "manWallet": [
+    {
+      "productId": 77752177,
+      "productName": "무에뜨 베이직 소가죽 슬림 반지갑",
+      "productPrice": 30210,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2019/09/24/15/1/43135f41-b46d-4a83-9c64-05d789594340.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXbx",
+      "keyword": "남자지갑",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 234657211,
+      "productName": "에스콰이아 남성 지갑 [선물 추천 포장출고] #50%세일중# 엠보천연소가죽 남성반지갑#선물추천# 반지갑",
+      "productPrice": 59000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/e168/7d2dc732f726b9ff06571a420405ac515b372b9554b13c304a8fbc209783.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXby",
+      "keyword": "남자지갑",
+      "rank": 2,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 5878933750,
+      "productName": "팝마인즈 남성 슬림 핏 가죽 3단 반지갑",
+      "productPrice": 30000,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/12568566887284509-233622ec-3326-43f7-a913-93b6efa4976f.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXbz",
+      "keyword": "남자지갑",
+      "rank": 3,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6056564144,
+      "productName": "[21FW] 그레이 라인배색 소가죽 반지갑 HJWA1F961G3",
+      "productPrice": 98380,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/e305/9d738b623a819e95997a0b5f95d95df834585864d2fba0a87828951e9a61.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXbA",
+      "keyword": "남자지갑",
+      "rank": 4,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 6549958506,
+      "productName": "보이제 CaecnKoen 남자 반지갑 남성용 지갑 가죽지갑 슬림 소가죽",
+      "productPrice": 41500,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/a6a2/076e25da13c4eca1bb1abca6d82fc12bc117d3585bb215404f6303578212.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXbB",
+      "keyword": "남자지갑",
+      "rank": 5,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1354322,
+      "productName": "타미힐피거 남성용 반지갑 0091-4891",
+      "productPrice": 28500,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/images/2015/12/08/21/7/51b029a8-a9ff-4297-a04c-32572cedec36.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXbC",
+      "keyword": "남자지갑",
+      "rank": 6,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 6656861059,
+      "productName": "남성 도용 방지 지갑 지퍼형 가죽 지갑,포켓에 수납 편리!",
+      "productPrice": 18990,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/d8f1/124dd1868533fc825a2197415370c8e525c32d91bd7d59b7104742739c56.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXbD",
+      "keyword": "남자지갑",
+      "rank": 7,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 6412335887,
+      "productName": "이뿌니 큐브남성장지갑 남성지갑 남자지갑",
+      "productPrice": 14800,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/78ef/0e957f1c9a6bb584190825461169739c901fb82b5392df42a2babd9037ed.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXbE",
+      "keyword": "남자지갑",
+      "rank": 8,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 277656093,
+      "productName": "[루이까또즈]루이까또즈 남성반지갑 SJ1AH32BL(갤러리아)",
+      "productPrice": 72990,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/ac1f/b7885fcc552857cb5dbbbbe188b40e83ff3244cfb7225884b467532c0c34.png",
+      "productUrl": "https://link.coupang.com/a/vVXbF",
+      "keyword": "남자지갑",
+      "rank": 9,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 5709053903,
+      "productName": "닥스셔츠 [22년 SS신상품][선물용인기][주문폭주] 고급스럽고 유니크한 사선입체 체크 남성 소가죽 반지갑",
+      "productPrice": 142000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/5f93/d76f12f54832be1401c9526f64bb0abf76522d353697b400e5c2f5340d88.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXbG",
+      "keyword": "남자지갑",
+      "rank": 10,
+      "isRocket": false,
+      "isFreeShipping": true
+    }
+  ],
+    "womanWallet": [
+    {
+      "productId": 269873677,
+      "productName": "애드에딧 메이비스 반지갑",
+      "productPrice": 10500,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/1132109447523615-8c9c094d-fa4a-43bb-85ac-c6bc87fb65c5.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXe4",
+      "keyword": "여자지갑",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1063892847,
+      "productName": "애드에딧 로마나 반지갑",
+      "productPrice": 15900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2532622315516287-70892614-cbfb-42f7-a108-d0bf693c68bb.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXe5",
+      "keyword": "여자지갑",
+      "rank": 2,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6540870653,
+      "productName": "닥스 DD 참장식 포인트 가죽 카드지갑",
+      "productPrice": 134300,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2022/05/25/11/0/cfb47ea7-20c6-4d1f-9c58-8e9e11e9d61c.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXe6",
+      "keyword": "여자지갑",
+      "rank": 3,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6529883357,
+      "productName": "헤지스 체크 가죽 장지갑",
+      "productPrice": 87180,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2022/05/19/12/1/a9ecba8e-dc45-4dd6-9357-eba07a53d06a.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXe7",
+      "keyword": "여자지갑",
+      "rank": 4,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6071333975,
+      "productName": "투원 체인 타임 패션잇템 뉴데일리 장지갑",
+      "productPrice": 31380,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/1gr0fpa1/f6b0823215a3404880e89817f1bb8788.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXe8",
+      "keyword": "여자지갑",
+      "rank": 5,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6558874504,
+      "productName": "질스튜어트 로고장식 소가죽 반지갑",
+      "productPrice": 85320,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2022/05/27/11/1/460935bb-5634-4e78-8a1c-5669088e9337.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXe9",
+      "keyword": "여자지갑",
+      "rank": 6,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 5272678629,
+      "productName": "[아가타] 가죽 반지갑 RE AGT211-313",
+      "productPrice": 47900,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/a3ba/0083a3303495468a408c23e00d5d08cd9c6695bb4bf80d50c2a65685af1d.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXfa",
+      "keyword": "여자지갑",
+      "rank": 7,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6082207944,
+      "productName": "질스튜어트 NEW DIA 배색 하트팬던트 반지갑",
+      "productPrice": 62760,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/f96nmvvb/2d1f77ab407145f8bdd7573913deb50e.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXfb",
+      "keyword": "여자지갑",
+      "rank": 8,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 5838545058,
+      "productName": "가죽 크랙 배색 가죽 클래식 멀티 반지갑",
+      "productPrice": 18550,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/dcprcwqs/df2365f56d9048cbb1961a92f706faea.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXfc",
+      "keyword": "여자지갑",
+      "rank": 9,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 206797770,
+      "productName": "애드에딧 오델렛 반지갑",
+      "productPrice": 14900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/71635117797711-6006c691-d9a9-425d-85a3-dc2199ee802f.jpg",
+      "productUrl": "https://link.coupang.com/a/vVXfd",
+      "keyword": "여자지갑",
+      "rank": 10,
+      "isRocket": true,
+      "isFreeShipping": false
+    }
   ]
 }

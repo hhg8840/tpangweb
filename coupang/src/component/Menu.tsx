@@ -45,38 +45,16 @@ export const menuTwo = (
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/carCleaner`}>차량용청소기</Link>
     </Menu.Item>
-    <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/scale`}>체중계</Link>
-    </Menu.Item>
-    <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/filterShower`}>필터샤워기</Link>
-    </Menu.Item>
-    <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/massageGun`}>마사지건</Link>
-    </Menu.Item>
-
-    <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/binoculars`}>쌍안경</Link>
-    </Menu.Item>
   </Menu>
 );
 
 export const menuThree = (
   <Menu>
     <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/necklace`}>목걸이</Link>
-    </Menu.Item>
-    <Menu.Item key={shortid.generate()}>
       <Link href={`/post/manWallet`}>남자지갑</Link>
     </Menu.Item>
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/womanWallet`}>여자지갑</Link>
-    </Menu.Item>
-    <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/earRing`}>귀걸이</Link>
-    </Menu.Item>
-    <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/womanBracelet`}>여자팔찌</Link>
     </Menu.Item>
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/electricGuitar`}>일렉트릭기타</Link>
