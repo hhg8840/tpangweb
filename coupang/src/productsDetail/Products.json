@@ -1902,5 +1902,117 @@
       "isRocket": true,
       "isFreeShipping": false
     }
+  ],
+  "wireCleaner": [
+    {
+      "productId": 47950084,
+      "productName": "LG전자 슈퍼 싸이킹 3 주니어 싸이클론 진공청소기, 샤이니 실버, K73SG",
+      "productPrice": 180900,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/13738648071712-6224855b-704d-4d5d-adfe-628c0fb3f7ed.jpg",
+      "productUrl": "https://link.coupang.com/a/v3pAP",
+      "keyword": "유선청소기",
+      "rank": 1,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 5225707661,
+      "productName": "홈플래닛 2 IN 1 유선 청소기, 화이트+블랙, MC607B",
+      "productPrice": 24210,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/24628599404929-7fd7bec3-6738-44fb-94ae-0d2ba654c9b9.jpg",
+      "productUrl": "https://link.coupang.com/a/v3pAQ",
+      "keyword": "유선청소기",
+      "rank": 2,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 47950086,
+      "productName": "LG전자 싸이킹 파워 청소기, 샤이니 실버, C40SGY",
+      "productPrice": 162000,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/684206199362185-13c4c6ad-f530-4906-8150-e82fc24c4468.jpg",
+      "productUrl": "https://link.coupang.com/a/v3pAR",
+      "keyword": "유선청소기",
+      "rank": 3,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 61194060,
+      "productName": "대웅모닝컴 싸이클론 진공청소기, 혼합색상, DWM-4733C",
+      "productPrice": 42780,
+      "productImage": "https://static.coupangcdn.com/image/product/image/vendoritem/2018/08/20/3497505219/baff5979-d99f-4234-8dd5-1e4113261f12.jpg",
+      "productUrl": "https://link.coupang.com/a/v3pAS",
+      "keyword": "유선청소기",
+      "rank": 4,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 6559308092,
+      "productName": "유니맥스 싸이클론 유선 진공 청소기, UVC-2285, 그레이",
+      "productPrice": 39900,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/lnbvoksa/96fdb0a0a0924f348ffbaa0d9ce909b8.jpg",
+      "productUrl": "https://link.coupang.com/a/v3pAU",
+      "keyword": "유선청소기",
+      "rank": 5,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 63495465,
+      "productName": "삼성전자 진공 싸이클론 청소기, 퓨어 버건디, VC33M3140L1",
+      "productPrice": 114990,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/12390723358395-32c3c4ae-030c-4f02-b2c9-dee00eddfa4b.jpg",
+      "productUrl": "https://link.coupang.com/a/v3pAV",
+      "keyword": "유선청소기",
+      "rank": 6,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 47950086,
+      "productName": "LG전자 싸이킹 POWER 진공청소기, 레드, C40RFHT",
+      "productPrice": 172860,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/11277112714970-63741095-ef52-4e5a-99cf-75ce7662c939.jpg",
+      "productUrl": "https://link.coupang.com/a/v3pAW",
+      "keyword": "유선청소기",
+      "rank": 7,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 2201180088,
+      "productName": "LG전자 슈퍼 싸이킹3 싸이클론 진공청소기, 아이언그레이, K83IGY",
+      "productPrice": 215000,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2020/10/05/17/6/5a87b46f-4964-47bc-a4f6-cea74a86e9d9.jpg",
+      "productUrl": "https://link.coupang.com/a/v3pAX",
+      "keyword": "유선청소기",
+      "rank": 8,
+      "isRocket": false,
+      "isFreeShipping": true
+    },
+    {
+      "productId": 6629578715,
+      "productName": "신일 유선 스틱 청소기 SVC-R128CP, 화이트, SVC-R128CP",
+      "productPrice": 51900,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/lfa1gc9n/4545b078c3044495a95d7690632baeea.jpg",
+      "productUrl": "https://link.coupang.com/a/v3pAY",
+      "keyword": "유선청소기",
+      "rank": 9,
+      "isRocket": true,
+      "isFreeShipping": false
+    },
+    {
+      "productId": 1115195002,
+      "productName": "[쿠팡수입] 디어마 유선 청소기 DX700, DX700, 화이트",
+      "productPrice": 33160,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2019/12/23/18/5/164b42fd-0b19-4338-8bd6-a804630cf064.jpg",
+      "productUrl": "https://link.coupang.com/a/v3pAZ",
+      "keyword": "유선청소기",
+      "rank": 10,
+      "isRocket": true,
+      "isFreeShipping": false
+    }
   ]
 }

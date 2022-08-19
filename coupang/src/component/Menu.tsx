@@ -45,6 +45,9 @@ export const menuTwo = (
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/carCleaner`}>차량용청소기</Link>
     </Menu.Item>
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/wireCleaner`}>유선청소기</Link>
+    </Menu.Item>
   </Menu>
 );
 
