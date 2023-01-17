@@ -46,7 +46,7 @@ const TestLayout: React.FunctionComponent<Props> = ({ children, keywords }) => {
         {indexState && <SearchInput items={items} />}
       </Header>
       {children}
-      <Footer>Copyright © 2022 All Rights Reserved by cup.lkbizz.xyz</Footer>
+      <Footer>Copyright © 2023 All Rights Reserved by zzang.mynaver.shop</Footer>
       {scrollToTopBtnState && (
         <ScrollToTopBtn scrollToTopBtnState onClick={scrollToTOP} ref={scrollBtnRef}>
           ▲

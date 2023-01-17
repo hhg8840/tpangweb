@@ -51,7 +51,7 @@ const ContentLayout = ({data}: { data: IData[] }) => {
                 <Title>{`${year}년${month}월`}</Title>
                 <Title>추천 인기 {data[0].keyword} TOP 10</Title>
                 <IframeWrapper>
-                    <iframe src="https://coupa.ng/cc13XI" width="100%" height="36" frameBorder="0" scrolling="no"
+                    <iframe src="https://coupa.ng/cdqkRo" width="100%" height="36" frameBorder="0" scrolling="no"
                             referrerPolicy="unsafe-url"></iframe>
                 </IframeWrapper>
                 <ContentWrapper>

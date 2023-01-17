@@ -5,7 +5,7 @@ import shortid from 'shortid';
 export const menuOne = (
   <Menu>
     <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/blutoothSpeaker`}>블루투스스피커</Link>
+      <Link href={`/post/wireCleaner`}>유선청소기</Link>
     </Menu.Item>
     {/*<Menu.Item key={shortid.generate()}>*/}
     {/*  <Link href={`/post/blutoothMouse`}>블루투스마우스</Link>*/}
@@ -37,7 +37,7 @@ export const menuOne = (
 export const menuTwo = (
   <Menu>
     <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/capsuleCoffee`}>캡슐커피머신</Link>
+      <Link href={`/post/leggings`}>레깅스</Link>
     </Menu.Item>
     {/*<Menu.Item key={shortid.generate()}>*/}
     {/*  <Link href={`/post/coffeeGrinder`}>커피그라인더</Link>*/}
