@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta
           key={shortid.generate()}
           name="description"
-          content="2022 가전제품, 생활용품 인기 추천 순위를 알려드립니다."
+          content="2023 가전제품, 생활용품 인기 추천 순위를 알려드립니다."
         />
         {/*<meta http-equiv="Refresh" content="5; url=https://link.coupang.com/a/win9e"/>*/}
         <meta key={shortid.generate()} name="keyword" content="키보드추천, 노트북추천, 마우스추천, " />

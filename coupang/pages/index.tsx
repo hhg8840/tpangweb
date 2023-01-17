@@ -58,7 +58,7 @@ const Home: NextPage = () => {
     <React.StrictMode>
       <Head>
         <title>추천인기 TOP 10</title>
-        <meta name="description" content="2022 가전제품, 생활필수품 등의 인기 추천 순위를 알려드립니다." />
+        <meta name="description" content="2023 가전제품, 생활필수품 등의 인기 추천 순위를 알려드립니다." />
         <meta
           name="keyword"
           content="키보드추천, 노트북추천, 마우스추천,모니터추천, 웹캠추천, 체중계추천, 귀걸이추천 "

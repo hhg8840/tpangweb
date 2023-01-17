@@ -28,7 +28,7 @@ def generateHmac(method, url, api_secret_key, api_access_key):
 
 
 def get_cuplink(linkList):
-    subId = 'pangcollector'
+    subId = 'top10collector'
 
     REQUEST = dict()
     REQUEST['coupangUrls'] = linkList
@@ -59,7 +59,7 @@ def get_cuplink(linkList):
 
 def cupang_search(categoryId, limit):
     # 쿠팡 API 호출[url 설정]
-    subId = 'pangcollector'
+    subId = 'top10collector'
     request_method = 'GET'
     domain = 'https://api-gateway.coupang.com'
     api_url = '/v2/providers/affiliate_open_api/apis/openapi/v1/products/bestcategories/' + str(
@@ -84,7 +84,7 @@ def cupang_search(categoryId, limit):
 
 def cupang_keyword_search(keyword, limit):
     # 쿠팡 API 호출[url 설정]
-    subId = 'pangcollector'
+    subId = 'top10collector'
     request_method = 'GET'
     domain = 'https://api-gateway.coupang.com'
     api_url = '/v2/providers/affiliate_open_api/apis/openapi/products/search?keyword=' + urllib.parse.quote(
