@@ -10,9 +10,9 @@ export const menuOne = (
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/fpsKeyboard`}>FPS 키보드</Link>
     </Menu.Item>
-    {/*<Menu.Item key={shortid.generate()}>*/}
-    {/*  <Link href={`/post/keyboard`}>기계식키보드</Link>*/}
-    {/*</Menu.Item>*/}
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/dvdPlayer`}>DVD플레이어</Link>
+    </Menu.Item>
     {/*<Menu.Item key={shortid.generate()}>*/}
     {/*  <Link href={`/post/notebook`}>노트북</Link>*/}
     {/*</Menu.Item>*/}
@@ -39,9 +39,9 @@ export const menuTwo = (
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/200notebook`}>고사양 노트북</Link>
     </Menu.Item>
-    {/*<Menu.Item key={shortid.generate()}>*/}
-    {/*  <Link href={`/post/coffeeGrinder`}>커피그라인더</Link>*/}
-    {/*</Menu.Item>*/}
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/ipadPro4`}>iPad Pro 4세대</Link>
+    </Menu.Item>
     {/*<Menu.Item key={shortid.generate()}>*/}
     {/*  <Link href={`/post/carCleaner`}>차량용청소기</Link>*/}
     {/*</Menu.Item>*/}
