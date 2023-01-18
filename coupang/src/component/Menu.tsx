@@ -37,7 +37,7 @@ export const menuOne = (
 export const menuTwo = (
   <Menu>
     <Menu.Item key={shortid.generate()}>
-      <Link href={`/post/leggings`}>레깅스</Link>
+      <Link href={`/post/200notebook`}>고사양 노트북</Link>
     </Menu.Item>
     {/*<Menu.Item key={shortid.generate()}>*/}
     {/*  <Link href={`/post/coffeeGrinder`}>커피그라인더</Link>*/}
