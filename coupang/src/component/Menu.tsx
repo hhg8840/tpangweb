@@ -53,12 +53,12 @@ export const menuThree = (
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/elecGuitar`}>일렉기타</Link>
     </Menu.Item>
-    {/*<Menu.Item key={shortid.generate()}>*/}
-    {/*  <Link href={`/post/electricGuitar`}>일렉트릭기타</Link>*/}
-    {/*</Menu.Item>*/}
-    {/*<Menu.Item key={shortid.generate()}>*/}
-    {/*  <Link href={`/post/manDocBag`}>남자서류가방</Link>*/}
-    {/*</Menu.Item>*/}
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/27monitor`}>24인치모니터</Link>
+    </Menu.Item>
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/27monitor`}>27인치모니터</Link>
+    </Menu.Item>
     {/*<Menu.Item key={shortid.generate()}>*/}
     {/*  <Link href={`/post/bluetoothHeadSet`}>무선헤드셋</Link>*/}
     {/*</Menu.Item>*/}

@@ -10,7 +10,7 @@ config_dict = json.load(file)
 
 def main():
 
-    keyword = '일렉기타'
+    keyword = '27인치모니터'
     files_Path = f"{now_path}/product_posts/"
 
     limit = 10
