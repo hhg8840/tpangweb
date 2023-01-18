@@ -10,7 +10,7 @@ config_dict = json.load(file)
 
 def main():
 
-    keyword = '고사양 노트북'
+    keyword = 'FPS 키보드'
     files_Path = f"{now_path}/product_posts/"
 
     limit = 10

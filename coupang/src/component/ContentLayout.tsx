@@ -32,12 +32,12 @@ const ContentLayout = ({data}: { data: IData[] }) => {
                 />
                 <meta key={shortid.generate()} property="og:type" content="website"/>
                 <meta key={shortid.generate()} property="og:url" content={url}/>
-                <meta key={shortid.generate()} property="og:title" content={`${data[0].keyword} 추천순위 TOP10`}/>
+                <meta key={shortid.generate()} property="og:title" content={`${data[0].keyword} 추천 순위 TOP10`}/>
                 <meta key={shortid.generate()} property="og:image" content={data[0].productImage}/>
                 <meta
                     key={shortid.generate()}
                     property="og:description"
-                    content={`${data[0].keyword} 추천순위 TOP10을 소개해드립니다.`}
+                    content={`${data[0].keyword} 추천 순위 TOP10을 소개해드립니다.`}
                 />
                 <meta
                     key={shortid.generate()}
@@ -49,7 +49,7 @@ const ContentLayout = ({data}: { data: IData[] }) => {
             <ContentLayoutWrapper>
                 <br/>
                 <Title>{`${year}년${month}월`}</Title>
-                <Title>추천 인기 {data[0].keyword} TOP 10</Title>
+                <Title>추천 {data[0].keyword} TOP 10</Title>
                 <IframeWrapper>
                     <iframe src="https://coupa.ng/cdqkRo" width="100%" height="36" frameBorder="0" scrolling="no"
                             referrerPolicy="unsafe-url"></iframe>
@@ -67,7 +67,7 @@ const ContentLayout = ({data}: { data: IData[] }) => {
                             {/*<Price>가격 : ₩{item.productPrice.toLocaleString()}</Price>*/}
 
                             <ButtonWrapper>
-                                <LinkBox>상세정보 확인하기</LinkBox>
+                                <LinkBox>자세히 보러가기</LinkBox>
                                 {/*<ShareImg onClick={() => kakaoShare(item)} src="/images/share.png" alt="" />*/}
                             </ButtonWrapper>
                         </Container>
