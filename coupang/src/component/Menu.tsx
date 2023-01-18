@@ -50,9 +50,9 @@ export const menuThree = (
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/premiumHeadSet`}>고급헤드셋</Link>
     </Menu.Item>
-    {/*<Menu.Item key={shortid.generate()}>*/}
-    {/*  <Link href={`/post/womanWallet`}>여자지갑</Link>*/}
-    {/*</Menu.Item>*/}
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/elecGuitar`}>일렉기타</Link>
+    </Menu.Item>
     {/*<Menu.Item key={shortid.generate()}>*/}
     {/*  <Link href={`/post/electricGuitar`}>일렉트릭기타</Link>*/}
     {/*</Menu.Item>*/}

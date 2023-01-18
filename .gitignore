@@ -1,3 +1,4 @@
 /coupangapi/setting.json
 /coupangapi/product_posts/
+/coupangapi/autopostkeyword.py
 *.bak

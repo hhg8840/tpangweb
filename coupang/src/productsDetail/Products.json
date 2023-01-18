@@ -604,5 +604,117 @@
       "rank": 10,
       "isRocket": true
     }
+  ],
+  "elecGuitar": [
+    {
+      "productId": 6181297257,
+      "productName": "헥스 입문용 무광 일렉기타 + 케이스, E100 S/SG, Slate Grey",
+      "productPrice": 285000,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/1891790552994180-7499285c-5dfb-4d6d-bb55-9141eae9be2d.jpg",
+      "productUrl": "https://link.coupang.com/a/MGDXJ",
+      "categoryName": "완구/취미",
+      "keyword": "일렉기타",
+      "rank": 1,
+      "isRocket": true
+    },
+    {
+      "productId": 6590831972,
+      "productName": "코네임 입문 연습용 일렉기타, 22W1606, 화이트(기타), 랜덤발송(피크, 스트랩)",
+      "productPrice": 171000,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/1257635566028757-8c6e1546-8a14-4559-bbb8-9eed7364921c.jpg",
+      "productUrl": "https://link.coupang.com/a/MGDXK",
+      "categoryName": "완구/취미",
+      "keyword": "일렉기타",
+      "rank": 2,
+      "isRocket": true
+    },
+    {
+      "productId": 6557134826,
+      "productName": "헥스 입문용 무광 일렉기타 + Thanks Gift 세트, E-100 S/IV, 아이보리",
+      "productPrice": 285000,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/rzvqjn5k/41f49c96dd204c239b3b98905c08cc76.jpg",
+      "productUrl": "https://link.coupang.com/a/MGDXL",
+      "categoryName": "완구/취미",
+      "keyword": "일렉기타",
+      "rank": 3,
+      "isRocket": true
+    },
+    {
+      "productId": 4536242885,
+      "productName": "콜트 KX100 일렉 기타, 단일상품, MA",
+      "productPrice": 290000,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/pvwzbttl/f04c186988a74c8cb149ecb837af0f4f.png",
+      "productUrl": "https://link.coupang.com/a/MGDXN",
+      "categoryName": "완구/취미",
+      "keyword": "일렉기타",
+      "rank": 4,
+      "isRocket": true
+    },
+    {
+      "productId": 1201729953,
+      "productName": "콜트 일렉트릭 기타, X-100 OPBK, 혼합 색상",
+      "productPrice": 199000,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2020/01/22/15/4/00e543b3-36b3-4b77-8b2b-09632efc47ca.jpg",
+      "productUrl": "https://link.coupang.com/a/MGDXO",
+      "categoryName": "완구/취미",
+      "keyword": "일렉기타",
+      "rank": 5,
+      "isRocket": false
+    },
+    {
+      "productId": 7057834241,
+      "productName": "야마하 PAC112J 일렉기타, RM",
+      "productPrice": 293000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/015e/f7a7efb0a9b140d0b106c7a76fcbc054f7fc769a5d921f0cabd1bbe08557.jpg",
+      "productUrl": "https://link.coupang.com/a/MGDXP",
+      "categoryName": "완구/취미",
+      "keyword": "일렉기타",
+      "rank": 6,
+      "isRocket": false
+    },
+    {
+      "productId": 6342666461,
+      "productName": "고퍼우드 HSS 글로시 유광 일렉 기타, 블랙300, 단일상품",
+      "productPrice": 339000,
+      "productImage": "https://static.coupangcdn.com/image/rs_quotation_api/hhlopf9y/ce9b856f649b4e0a832848f914ed5f31.jpg",
+      "productUrl": "https://link.coupang.com/a/MGDXQ",
+      "categoryName": "완구/취미",
+      "keyword": "일렉기타",
+      "rank": 7,
+      "isRocket": true
+    },
+    {
+      "productId": 1349775616,
+      "productName": "콜트 CR200 BK 일렉 기타, CR200 BK, 혼합 색상",
+      "productPrice": 344000,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2020/03/12/18/8/9cab3b18-2611-4ebf-b69a-9c337a59dbcf.jpg",
+      "productUrl": "https://link.coupang.com/a/MGDXR",
+      "categoryName": "완구/취미",
+      "keyword": "일렉기타",
+      "rank": 8,
+      "isRocket": true
+    },
+    {
+      "productId": 7057834241,
+      "productName": "야마하 PAC112J 일렉기타, LPB",
+      "productPrice": 293000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/015e/f7a7efb0a9b140d0b106c7a76fcbc054f7fc769a5d921f0cabd1bbe08557.jpg",
+      "productUrl": "https://link.coupang.com/a/MGDXS",
+      "categoryName": "완구/취미",
+      "keyword": "일렉기타",
+      "rank": 9,
+      "isRocket": false
+    },
+    {
+      "productId": 6187686840,
+      "productName": "헥스 일렉기타 + 케이스, E-100 S/AB, Ash Brown",
+      "productPrice": 259350,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2571978581068888-db119fe4-75f2-46ae-8845-eaad6031a35b.jpg",
+      "productUrl": "https://link.coupang.com/a/MGDXU",
+      "categoryName": "완구/취미",
+      "keyword": "일렉기타",
+      "rank": 10,
+      "isRocket": true
+    }
   ]
 }
