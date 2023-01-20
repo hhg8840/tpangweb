@@ -13,9 +13,9 @@ export const menuOne = (
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/dvdPlayer`}>DVD플레이어</Link>
     </Menu.Item>
-    {/*<Menu.Item key={shortid.generate()}>*/}
-    {/*  <Link href={`/post/notebook`}>노트북</Link>*/}
-    {/*</Menu.Item>*/}
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/ecoro`}>전기스쿠터</Link>
+    </Menu.Item>
     {/*<Menu.Item key={shortid.generate()}>*/}
     {/*  <Link href={`/post/actionCam`}>액션캠</Link>*/}
     {/*</Menu.Item>*/}

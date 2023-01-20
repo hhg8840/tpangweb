@@ -940,5 +940,106 @@
       "rank": 10,
       "isRocket": true
     }
+  ],
+  "ecoro": [
+    {
+      "productId": 6500801919,
+      "productName": "AU테크 에코로 K5 전기 전동스쿠터 48V 12Ah",
+      "productPrice": 799000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/2463/d8c750eb6e9224a75b131ec15cc5e94e7b703009c8ef56a60253cf095db1.jpg",
+      "productUrl": "https://link.coupang.com/a/MOvuB",
+      "categoryName": "스포츠/레저용품",
+      "keyword": "전기스쿠터",
+      "rank": 1,
+      "isRocket": false
+    },
+    {
+      "productId": 6463039749,
+      "productName": "자전거 못타도 탈 수 있는 전기스쿠터 이디뚜뚜3 삼륜스쿠터 핸디라이프",
+      "productPrice": 990000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/5463/48bc98908cf312ca4fb8f8d8b81dc6fa1022bbdefa7d5c00ae55b3213218.jpg",
+      "productUrl": "https://link.coupang.com/a/MOvuC",
+      "categoryName": "생활용품",
+      "keyword": "전기스쿠터",
+      "rank": 2,
+      "isRocket": false
+    },
+    {
+      "productId": 6265355301,
+      "productName": "타이탄1100 전기스쿠터 48V 25Ah 전동오토바이 배달용 출퇴근용 스쿠터 배달가방",
+      "productPrice": 1390000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/2df1/7599d2ffde472262dcd870b293af5f9ee708cfaa511d47e521ddcfd61fc1.jpg",
+      "productUrl": "https://link.coupang.com/a/MOvuD",
+      "categoryName": "자동차용품",
+      "keyword": "전기스쿠터",
+      "rank": 3,
+      "isRocket": false
+    },
+    {
+      "productId": 6790884845,
+      "productName": "라이더 오토바이 스쿠터 배달 라이더 휘발유 미니 125cc 마실용 가성비 JH, 업그레이드",
+      "productPrice": 1098000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/777e/e97d71619b2fe09c3bba1951774ea34d0d6275ab9b24b0da59e562bf3109.png",
+      "productUrl": "https://link.coupang.com/a/MOvuE",
+      "categoryName": "자동차용품",
+      "keyword": "전기스쿠터",
+      "rank": 4,
+      "isRocket": false
+    },
+    {
+      "productId": 212823323,
+      "productName": "에이유테크 전동스쿠터 에코로, ECORO M5, 블랙",
+      "productPrice": 369000,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/9533770383595354-3206c86b-98f4-4447-bb33-ad35455fb331.jpg",
+      "productUrl": "https://link.coupang.com/a/MOvuF",
+      "categoryName": "스포츠/레저용품",
+      "keyword": "전기스쿠터",
+      "rank": 5,
+      "isRocket": true
+    },
+    {
+      "productId": 192078562,
+      "productName": "YH 전동스쿠터,전기스쿠터,전기오토바이, 노랑",
+      "productPrice": 858000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/59fb/688dc136dc18310bb4110a06867df94abe77a9d7df3f41a8623e96c46316.png",
+      "productUrl": "https://link.coupang.com/a/MOvuG",
+      "categoryName": "스포츠/레저용품",
+      "keyword": "전기스쿠터",
+      "rank": 6,
+      "isRocket": false
+    },
+    {
+      "productId": 6433908020,
+      "productName": "슈퍼쏘코TC 60V 30Ah 1500W 전기바이크 클래식바이크 SUPERSOCOTC 핸디라이프, 슈퍼쏘코TC 블랙",
+      "productPrice": 2850000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/817b/29d58fd2294dcd3fed4bb4d7aeed3f43ae1bcbbc3877043e9102d85c8e61.jpg",
+      "productUrl": "https://link.coupang.com/a/MOvuH",
+      "categoryName": "자동차용품",
+      "keyword": "전기스쿠터",
+      "rank": 7,
+      "isRocket": false
+    },
+    {
+      "productId": 6357740280,
+      "productName": "AU테크 스카닉GT 클래식 여성 출퇴근 배달용 전동 전기자전거 36V 5Ah, 아이보리",
+      "productPrice": 698000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/241b/b022335b4a5d85d83ae7eef8b816edd4a4a6a04fab2af068cc160051ce9e.jpg",
+      "productUrl": "https://link.coupang.com/a/MOvuI",
+      "categoryName": "스포츠/레저용품",
+      "keyword": "전기스쿠터",
+      "rank": 8,
+      "isRocket": false
+    },
+    {
+      "productId": 6790884845,
+      "productName": "라이더 오토바이 스쿠터 배달 라이더 휘발유 미니 125cc 마실용 가성비 JH, 스탠다드",
+      "productPrice": 1036000,
+      "productImage": "https://static.coupangcdn.com/image/vendor_inventory/13b1/42c74777ffab0665c0cd30fad3e0ee8ca94e27d3ea5e57da40bcbdee3f53.png",
+      "productUrl": "https://link.coupang.com/a/MOvuJ",
+      "categoryName": "자동차용품",
+      "keyword": "전기스쿠터",
+      "rank": 9,
+      "isRocket": false
+    }
   ]
 }
