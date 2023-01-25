@@ -59,8 +59,8 @@ export const menuThree = (
     <Menu.Item key={shortid.generate()}>
       <Link href={`/post/27monitor`}>27인치모니터</Link>
     </Menu.Item>
-    {/*<Menu.Item key={shortid.generate()}>*/}
-    {/*  <Link href={`/post/bluetoothHeadSet`}>무선헤드셋</Link>*/}
-    {/*</Menu.Item>*/}
+    <Menu.Item key={shortid.generate()}>
+      <Link href={`/post/3wallet`}>3단지갑</Link>
+    </Menu.Item>
   </Menu>
 );
