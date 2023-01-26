@@ -10,7 +10,7 @@ config_dict = json.load(file)
 
 def main():
 
-    keyword = '3단지갑'
+    keyword = '칼슘'
     files_Path = f"{now_path}/product_posts/"
 
     limit = 10

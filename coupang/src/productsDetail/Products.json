@@ -1153,5 +1153,29 @@
       "rank": 10,
       "isRocket": false
     }
+  ],
+  "calcium": [
+    {
+      "productId": 5545887952,
+      "productName": "종근당 칼슘 앤 마그네슘 비타민D 아연, 180정, 2개",
+      "productPrice": 22890,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/8041419657421392-a141e018-fe4a-4a47-92e1-d29223473042.jpg",
+      "productUrl": "https://link.coupang.com/a/Nkonv",
+      "categoryName": "식품",
+      "keyword": "칼슘",
+      "rank": 1,
+      "isRocket": true
+    },
+    {
+      "productId": 6594956058,
+      "productName": "센트룸 칼슘+D 미니 120g, 1개, 120정",
+      "productPrice": 22220,
+      "productImage": "https://static.coupangcdn.com/image/retail/images/2973612693095456-c1c0c5f9-e101-4afd-abd4-4038ba9356fa.jpg",
+      "productUrl": "https://link.coupang.com/a/Nkonw",
+      "categoryName": "식품",
+      "keyword": "칼슘",
+      "rank": 2,
+      "isRocket": true
+    }
   ]
 }
